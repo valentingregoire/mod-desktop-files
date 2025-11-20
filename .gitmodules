@@ -1,6 +1,0 @@
-[submodule "mod-desktop-files-x86"]
-	path = mod-desktop-files-x86
-	url = git@github.com:valentingregoire/mod-desktop-files-x86.git
-[submodule "mod-desktop-files-arm"]
-	path = mod-desktop-files-arm
-	url = git@github.com:valentingregoire/mod-desktop-files-arm.git
