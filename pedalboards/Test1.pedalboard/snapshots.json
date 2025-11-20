@@ -1,0 +1,231 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/valentin/Documents/MOD Desktop/user-files/NAM Models/F3ndr BFTWN Verb Clean1 for NAM Plugin or  Full NAM Loader Pedals.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/home/valentin/Documents/MOD Desktop/user-files/Speaker Cabinets IRs/01 SMG_UK_V30 57_dc.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 3.125,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.762962962962963,
+                        "tone": 0.0,
+                        "volume": 0.575925925925926,
+                        "hp_lp": 0.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 0.25468750146683306,
+                        "blend": 10.0
+                    },
+                    "preset": ""
+                },
+                "rt_neural_generic": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json": [
+                            "/home/valentin/Downloads/mod-desktop-0.0.12-linux-x86_64/mod-desktop/plugins/rt-neural-generic.lv2/models/deer ink studios/tw40_california_clean_deerinkstudios.json",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "ANTIALIASING": 66.21600341796875,
+                        "PREGAIN": 0.0,
+                        "NETBYPASS": 0.0,
+                        "PARAM1": 0.0,
+                        "PARAM2": 0.0,
+                        "EQBYPASS": 0.0,
+                        "EQPOS": 0.0,
+                        "BASS": 0.0,
+                        "BFREQ": 305.0,
+                        "MID": 0.0,
+                        "MFREQ": 750.0,
+                        "MIDQ": 0.7070000171661377,
+                        "MTYPE": 0.0,
+                        "TREBLE": 0.0,
+                        "TFREQ": 2000.0,
+                        "DEPTH": 0.0,
+                        "PRESENCE": 0.0,
+                        "DCBLOCKER": 1.0,
+                        "MASTER": 0.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/home/valentin/Documents/MOD Desktop/user-files/Speaker Cabinets IRs/DELUXE REVERB OXFORD - BIG.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "tubewarmth_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 0.13867187648429535,
+                        "blend": -10.0
+                    },
+                    "preset": ""
+                },
+                "KlonCentaur": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "gain": 0.6703703703703704,
+                        "treble": 0.4777777777777778,
+                        "level": 0.34629629629629627,
+                        "mode": 0.0,
+                        "lv2_enabled": 1.0,
+                        "mono": 1.0
+                    },
+                    "preset": ""
+                },
+                "KlonCentaur_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "gain": 0.9148148148148149,
+                        "treble": 0.3888888888888889,
+                        "level": 0.5,
+                        "mode": 0.0,
+                        "lv2_enabled": 0.0,
+                        "mono": 1.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelay": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "tempo_host": 120.0,
+                        "tempo_user": 120.0,
+                        "tempo_mode": 0.0,
+                        "tap": 1.0,
+                        "mix": 29.24107142857143,
+                        "feedback": 57.2544642857143,
+                        "crossf": 13.727678571428559,
+                        "low_on": 0.0,
+                        "low_f": 20.0,
+                        "low_q": 1.0,
+                        "high_on": 0.0,
+                        "high_f": 7500.0,
+                        "high_q": 1.0,
+                        "div_l": 0.0,
+                        "div_r": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/valentin/Documents/MOD Desktop/user-files/NAM Models/F3ndr BFTWN Verb Clean1 for NAM Plugin or  Full NAM Loader Pedals.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -6.158730158730155,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 0.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 0.0,
+                        "HPfreq": 17.30768087999418,
+                        "HPQ": 0.6914062382254212,
+                        "LowPass": 1.0,
+                        "LPfreq": 3370.6542581681256,
+                        "LPQ": 0.04374999925494193,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 0.7875976562500003,
+                        "LSgain": 5.263392857142854,
+                        "sec1": 1.0,
+                        "freq1": 160.0,
+                        "q1": 1.2116699218750004,
+                        "gain1": 3.0334821428571495,
+                        "sec2": 1.0,
+                        "freq2": 397.0,
+                        "q2": 2.154296875,
+                        "gain2": 0.6629464285714342,
+                        "sec3": 1.0,
+                        "freq3": 576.9799401168534,
+                        "q3": 1.3039550781249998,
+                        "gain3": 3.6964285714285623,
+                        "sec4": 1.0,
+                        "freq4": 1754.3262137631427,
+                        "q4": 1.5764160156249998,
+                        "gain4": -1.6674107142857153,
+                        "HSsec": 1.0,
+                        "HSfreq": 2806.6307797716413,
+                        "HSq": 0.0625,
+                        "HSgain": -9.582589285714295
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}
