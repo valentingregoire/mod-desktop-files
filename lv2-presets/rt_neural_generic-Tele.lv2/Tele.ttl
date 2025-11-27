@@ -1,0 +1,74 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic> ;
+	rdfs:label "Tele" ;
+	lv2:port [
+		lv2:symbol "ANTIALIASING" ;
+		pset:value 66.21600342
+	] , [
+		lv2:symbol "BASS" ;
+		pset:value -2.60740709
+	] , [
+		lv2:symbol "BFREQ" ;
+		pset:value 264.55078125
+	] , [
+		lv2:symbol "DEPTH" ;
+		pset:value -1.07142901
+	] , [
+		lv2:symbol "EQBYPASS" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "EQPOS" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "MASTER" ;
+		pset:value 1.5
+	] , [
+		lv2:symbol "MFREQ" ;
+		pset:value 750.0
+	] , [
+		lv2:symbol "MID" ;
+		pset:value 1.04464304
+	] , [
+		lv2:symbol "MIDQ" ;
+		pset:value 0.70700002
+	] , [
+		lv2:symbol "MTYPE" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "NETBYPASS" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "PARAM1" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "PARAM2" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "PREGAIN" ;
+		pset:value 1.51111102
+	] , [
+		lv2:symbol "PRESENCE" ;
+		pset:value 0.77037001
+	] , [
+		lv2:symbol "TFREQ" ;
+		pset:value 1790.17858887
+	] , [
+		lv2:symbol "TREBLE" ;
+		pset:value 1.00740695
+	] , [
+		lv2:symbol "enabled" ;
+		pset:value 1.0
+	] ;
+	state:state [
+		<http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json> <MESA_MK3_CLEAN_STANDARD_MELODISAMPO.aidax>
+	] .
+
