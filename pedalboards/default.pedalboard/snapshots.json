@@ -1,0 +1,56 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "rt_neural_generic": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json": [
+                            "/home/valentin/Downloads/mod-desktop-0.0.12-linux-x86_64/mod-desktop/plugins/rt-neural-generic.lv2/models/deer ink studios/tw40_california_clean_deerinkstudios.json",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "ANTIALIASING": 66.21600341796875,
+                        "PREGAIN": 0.0,
+                        "NETBYPASS": 0.0,
+                        "PARAM1": 0.0,
+                        "PARAM2": 0.0,
+                        "EQBYPASS": 0.0,
+                        "EQPOS": 0.0,
+                        "BASS": 0.0,
+                        "BFREQ": 305.0,
+                        "MID": 0.0,
+                        "MFREQ": 750.0,
+                        "MIDQ": 0.7070000171661377,
+                        "MTYPE": 0.0,
+                        "TREBLE": 0.0,
+                        "TFREQ": 2000.0,
+                        "DEPTH": 0.0,
+                        "PRESENCE": 0.0,
+                        "DCBLOCKER": 1.0,
+                        "MASTER": 0.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/home/valentin/Documents/MOD Desktop/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - C414 - Distant 24In.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}
