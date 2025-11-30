@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic> ;
 	state:state [
-		<http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json> <MESA_MK3_CLEAN_STANDARD_MELODISAMPO.aidax>
+		<http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json> <MESA_MK3_CLEAN_LIGHTEST_MELODISAMPO.aidax>
 	] .
 

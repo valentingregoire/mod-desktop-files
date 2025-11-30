@@ -1,0 +1,98 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://ca9.eu/lv2/bolliedelayxt> ;
+	rdfs:label "Background" ;
+	lv2:port [
+		lv2:symbol "CP_CF" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_ENABLED" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "CP_FB" ;
+		pset:value 3.09375
+	] , [
+		lv2:symbol "CP_GAIN_DRY" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_GAIN_WET" ;
+		pset:value -23.70479965
+	] , [
+		lv2:symbol "CP_HCF_FB_FREQ" ;
+		pset:value 7500.0
+	] , [
+		lv2:symbol "CP_HCF_FB_ON" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_HCF_FB_Q" ;
+		pset:value 0.70700002
+	] , [
+		lv2:symbol "CP_HCF_PRE_FREQ" ;
+		pset:value 7500.0
+	] , [
+		lv2:symbol "CP_HCF_PRE_ON" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_HCF_PRE_Q" ;
+		pset:value 0.70700002
+	] , [
+		lv2:symbol "CP_LCF_FB_FREQ" ;
+		pset:value 20.0
+	] , [
+		lv2:symbol "CP_LCF_FB_ON" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_LCF_FB_Q" ;
+		pset:value 0.70700002
+	] , [
+		lv2:symbol "CP_LCF_PRE_FREQ" ;
+		pset:value 20.0
+	] , [
+		lv2:symbol "CP_LCF_PRE_ON" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_LCF_PRE_Q" ;
+		pset:value 0.70700002
+	] , [
+		lv2:symbol "CP_MOD_DEPTH" ;
+		pset:value 2.0
+	] , [
+		lv2:symbol "CP_MOD_ON" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_MOD_PHASE" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_MOD_RATE" ;
+		pset:value 0.1
+	] , [
+		lv2:symbol "CP_PING_PONG" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_TEMPO_DIV_CH1" ;
+		pset:value 3.0
+	] , [
+		lv2:symbol "CP_TEMPO_DIV_CH2" ;
+		pset:value 3.0
+	] , [
+		lv2:symbol "CP_TEMPO_HOST" ;
+		pset:value 120.0
+	] , [
+		lv2:symbol "CP_TEMPO_MODE" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "CP_TEMPO_USER" ;
+		pset:value 120.0
+	] , [
+		lv2:symbol "CP_TRAILS" ;
+		pset:value 0.0
+	] .
+

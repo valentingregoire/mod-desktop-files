@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <https://mod.audio/plugins/ConvolutionLoader> ;
 	state:state [
-		<https://mod.audio/plugins/ConvolutionLoader#irfile> <file:///var/modep/user-files/Reverb%20IRs/Fender%20Spring%20Reverb%20Tank/Fender%20Reverb%20Tank_Dwell%2004_Tone%2003.wav>
+		<https://mod.audio/plugins/ConvolutionLoader#irfile> <file:///var/modep/user-files/Reverb%20IRs/Fender%20Spring%20Reverb%20Tank/Fender%20Reverb%20Tank_Dwell%2002_Tone%2003.wav>
 	] .
 

@@ -1,0 +1,35 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://mod.audio/plugins/ConvolutionLoader> ;
+	rdfs:label "Background" ;
+	lv2:port [
+		lv2:symbol "buffered" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "drylevel" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "hpf" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "lv2_enabled" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "trails" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "wetlevel" ;
+		pset:value -2.77901793
+	] ;
+	state:state [
+		<https://mod.audio/plugins/ConvolutionLoader#irfile> <file:///var/modep/user-files/Reverb%20IRs/Fender%20Spring%20Reverb%20Tank/Fender%20Reverb%20Tank_Dwell%2002_Tone%2003.wav>
+	] .
+

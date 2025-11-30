@@ -1,0 +1,23 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://mod.audio/plugins/CabinetLoader> ;
+	rdfs:label "Fender Twin Reverb R" ;
+	lv2:port [
+		lv2:symbol "level" ;
+		pset:value -12.0
+	] , [
+		lv2:symbol "lv2_enabled" ;
+		pset:value 1.0
+	] ;
+	state:state [
+		<https://mod.audio/plugins/CabinetLoader#irfile> <file:///var/modep/user-files/Speaker%20Cabinets%20IRs/1971%20Fender%20Twin%20Reverb%20Cabinet%20with%20Oxford%2012T6-10%20IR%20Collection/1971%20Fender%20Twin%20Reverb%202x12%20Oxford%2012T6-10%20-%20MD421%202%20-%20Cone%20Edge.wav>
+	] .
+

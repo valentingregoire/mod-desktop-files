@@ -15,13 +15,13 @@
 		pset:value 66.21600342
 	] , [
 		lv2:symbol "BASS" ;
-		pset:value -2.60740709
+		pset:value 1.24444401
 	] , [
 		lv2:symbol "BFREQ" ;
 		pset:value 264.55078125
 	] , [
 		lv2:symbol "DEPTH" ;
-		pset:value -1.07142901
+		pset:value -2.07407403
 	] , [
 		lv2:symbol "EQBYPASS" ;
 		pset:value 0.0
@@ -30,16 +30,16 @@
 		pset:value 0.0
 	] , [
 		lv2:symbol "MASTER" ;
-		pset:value 1.5
+		pset:value -1.61111104
 	] , [
 		lv2:symbol "MFREQ" ;
 		pset:value 750.0
 	] , [
 		lv2:symbol "MID" ;
-		pset:value 1.04464304
+		pset:value 1.06666696
 	] , [
 		lv2:symbol "MIDQ" ;
-		pset:value 0.70700002
+		pset:value 0.70999998
 	] , [
 		lv2:symbol "MTYPE" ;
 		pset:value 0.0
@@ -57,18 +57,18 @@
 		pset:value 1.51111102
 	] , [
 		lv2:symbol "PRESENCE" ;
-		pset:value 0.77037001
+		pset:value 2.25185204
 	] , [
 		lv2:symbol "TFREQ" ;
 		pset:value 1790.17858887
 	] , [
 		lv2:symbol "TREBLE" ;
-		pset:value 1.00740695
+		pset:value 2.42963004
 	] , [
 		lv2:symbol "enabled" ;
 		pset:value 1.0
 	] ;
 	state:state [
-		<http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json> <MESA_MK3_CLEAN_STANDARD_MELODISAMPO.aidax>
+		<http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json> <MESA_MK3_CLEAN_LIGHTEST_MELODISAMPO.aidax>
 	] .
 
