@@ -1,5 +1,5 @@
 {
-    "current": 1,
+    "current": 3,
     "snapshots": [
         {
             "name": "Default",
@@ -315,21 +315,6 @@
                     },
                     "preset": ""
                 },
-                "neural_amp_modeler_lv2": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Boss Blues Driver BD-2/Boss Blues Driver BD-2 Gain 75percent.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": 12.380952380952422,
-                        "output_level": -7.827664399092933,
-                        "buffered": 0.0
-                    },
-                    "preset": ""
-                },
                 "modspectre_3": {
                     "bypassed": false,
                     "parameters": {},
@@ -369,6 +354,31 @@
                         "fslider0_": -10.598214285714286,
                         "fslider1_": 847.8236607142857,
                         "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Compress": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "measure": 0.0,
+                        "mode": 1.0,
+                        "threshold": 0.5,
+                        "strength": 0.7137276785714282,
+                        "attack": 0.8671875000000003,
+                        "release": 0.49553571428571425,
+                        "gain": 3.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316964285714296,
+                        "delay": 0.02131696460336177,
+                        "depth": 0.09319196428571436,
+                        "freq": 1.243582590603701
                     },
                     "preset": ""
                 }
@@ -606,6 +616,31 @@
                         "fslider2_": 1.0
                     },
                     "preset": ""
+                },
+                "Compress": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "measure": 0.0,
+                        "mode": 1.0,
+                        "threshold": 0.5,
+                        "strength": 0.7137276785714282,
+                        "attack": 0.8671875000000003,
+                        "release": 0.49553571428571425,
+                        "gain": 3.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316964285714296,
+                        "delay": 0.02131696460336177,
+                        "depth": 0.09319196428571436,
+                        "freq": 1.243582590603701
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -839,6 +874,1015 @@
                         "fslider0_": -10.598214285714286,
                         "fslider1_": 847.8236607142857,
                         "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Compress": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "measure": 0.0,
+                        "mode": 1.0,
+                        "threshold": 0.5,
+                        "strength": 0.7137276785714282,
+                        "attack": 0.8671875000000003,
+                        "release": 0.49553571428571425,
+                        "gain": 3.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316964285714296,
+                        "delay": 0.02131696460336177,
+                        "depth": 0.09319196428571436,
+                        "freq": 1.243582590603701
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Clean",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - i5 1 - Cap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader-Fender_twin_reverb_L.lv2/Fender_twin_reverb_L.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - i5 2 - Cap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Fender_Twin_Reverb_R.lv2/Fender_Twin_Reverb_R.ttl"
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.4375,
+                        "GATE": -55.0,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.4642859995365143,
+                        "LEVEL": -14.160714149475098
+                    },
+                    "preset": ""
+                },
+                "ConvolutionLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/ConvolutionLoader#irfile": [
+                            "/var/modep/user-files/Reverb IRs/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 02_Tone 03.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "drylevel": 0.0,
+                        "wetlevel": -2.779017925262451,
+                        "hpf": 0.0,
+                        "trails": 1.0,
+                        "lv2_enabled": 1.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ConvolutionLoader-Background.lv2/Background.ttl"
+                },
+                "DS1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.07758799940347672,
+                        "Level": 0.20983900129795074,
+                        "Dist": 0.8444809913635254
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.0,
+                        "tone": 0.7407410144805908,
+                        "volume": 0.7777780294418335,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modspectre": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_2": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_3": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "rt_neural_generic": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json": [
+                            "/var/modep/user-files/Aida DSP Models/Mesa Boogie Mark III Red Stripe -87 (Aida X)/MESA_MK3_CLEAN_LIGHTEST_MELODISAMPO.aidax",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "ANTIALIASING": 66.21600341796875,
+                        "PREGAIN": 8.800000190734863,
+                        "NETBYPASS": 0.0,
+                        "PARAM1": 0.0,
+                        "PARAM2": 0.0,
+                        "EQBYPASS": 0.0,
+                        "EQPOS": 0.0,
+                        "BASS": -2.6370370388031006,
+                        "BFREQ": 264.55078125,
+                        "MID": 1.748147964477539,
+                        "MFREQ": 1600.669677734375,
+                        "MIDQ": 2.2276790142059326,
+                        "MTYPE": 0.0,
+                        "TREBLE": 1.096295952796936,
+                        "TFREQ": 1790.1785888671875,
+                        "DEPTH": -4.918519020080566,
+                        "PRESENCE": 1.600000023841858,
+                        "MASTER": -4.722221851348877,
+                        "enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/rt_neural_generic-Mesa_Clean.lv2/Mesa_Clean.ttl"
+                },
+                "ts9sim": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -13.410714149475098,
+                        "fslider1_": 640.4017944335938,
+                        "fslider2_": 0.3833709955215454
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 847.8236694335938,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Compress": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "measure": 0.0,
+                        "mode": 1.0,
+                        "threshold": 0.5,
+                        "strength": 0.7137276785714282,
+                        "attack": 0.8671875000000003,
+                        "release": 0.49553571428571425,
+                        "gain": 3.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316964285714296,
+                        "delay": 0.02131696460336177,
+                        "depth": 0.09319196428571436,
+                        "freq": 1.243582590603701
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "OD",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - i5 1 - Cap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader-Fender_twin_reverb_L.lv2/Fender_twin_reverb_L.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - i5 2 - Cap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Fender_Twin_Reverb_R.lv2/Fender_Twin_Reverb_R.ttl"
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.4375,
+                        "GATE": -55.0,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.4642859995365143,
+                        "LEVEL": -14.160714149475098
+                    },
+                    "preset": ""
+                },
+                "ConvolutionLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/ConvolutionLoader#irfile": [
+                            "/var/modep/user-files/Reverb IRs/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 02_Tone 03.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "drylevel": 0.0,
+                        "wetlevel": -2.779017925262451,
+                        "hpf": 0.0,
+                        "trails": 1.0,
+                        "lv2_enabled": 1.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ConvolutionLoader-Background.lv2/Background.ttl"
+                },
+                "DS1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.07758799940347672,
+                        "Level": 0.20983900129795074,
+                        "Dist": 0.8444809913635254
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.0,
+                        "tone": 0.7407410144805908,
+                        "volume": 0.7777780294418335,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modspectre": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_2": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_3": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "rt_neural_generic": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json": [
+                            "/var/modep/user-files/Aida DSP Models/Mesa Boogie Mark III Red Stripe -87 (Aida X)/MESA_MK3_CLEAN_LIGHTEST_MELODISAMPO.aidax",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "ANTIALIASING": 66.21600341796875,
+                        "PREGAIN": 8.800000190734863,
+                        "NETBYPASS": 0.0,
+                        "PARAM1": 0.0,
+                        "PARAM2": 0.0,
+                        "EQBYPASS": 0.0,
+                        "EQPOS": 0.0,
+                        "BASS": -2.6370370388031006,
+                        "BFREQ": 264.55078125,
+                        "MID": 1.748147964477539,
+                        "MFREQ": 1600.669677734375,
+                        "MIDQ": 2.2276790142059326,
+                        "MTYPE": 0.0,
+                        "TREBLE": 1.096295952796936,
+                        "TFREQ": 1790.1785888671875,
+                        "DEPTH": -4.918519020080566,
+                        "PRESENCE": 1.600000023841858,
+                        "MASTER": -4.722221851348877,
+                        "enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/rt_neural_generic-Mesa_Clean.lv2/Mesa_Clean.ttl"
+                },
+                "ts9sim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -13.410714149475098,
+                        "fslider1_": 640.4017944335938,
+                        "fslider2_": 0.3833709955215454
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 847.8236694335938,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Compress": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "measure": 0.0,
+                        "mode": 1.0,
+                        "threshold": 0.5,
+                        "strength": 0.7137276785714282,
+                        "attack": 0.8671875000000003,
+                        "release": 0.49553571428571425,
+                        "gain": 3.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316964285714296,
+                        "delay": 0.02131696460336177,
+                        "depth": 0.09319196428571436,
+                        "freq": 1.243582590603701
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Solo",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - i5 1 - Cap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader-Fender_twin_reverb_L.lv2/Fender_twin_reverb_L.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - i5 2 - Cap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Fender_Twin_Reverb_R.lv2/Fender_Twin_Reverb_R.ttl"
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.4375,
+                        "GATE": -55.0,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.4642859995365143,
+                        "LEVEL": -14.160714149475098
+                    },
+                    "preset": ""
+                },
+                "ConvolutionLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/ConvolutionLoader#irfile": [
+                            "/var/modep/user-files/Reverb IRs/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 02_Tone 03.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "drylevel": 0.0,
+                        "wetlevel": -2.779017925262451,
+                        "hpf": 0.0,
+                        "trails": 1.0,
+                        "lv2_enabled": 1.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ConvolutionLoader-Background.lv2/Background.ttl"
+                },
+                "DS1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.07758799940347672,
+                        "Level": 0.20983900129795074,
+                        "Dist": 0.8444809913635254
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.0,
+                        "tone": 0.7407410144805908,
+                        "volume": 0.7777780294418335,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modspectre": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_2": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_3": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "rt_neural_generic": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json": [
+                            "/var/modep/user-files/Aida DSP Models/Mesa Boogie Mark III Red Stripe -87 (Aida X)/MESA_MK3_CLEAN_LIGHTEST_MELODISAMPO.aidax",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "ANTIALIASING": 66.21600341796875,
+                        "PREGAIN": 8.800000190734863,
+                        "NETBYPASS": 0.0,
+                        "PARAM1": 0.0,
+                        "PARAM2": 0.0,
+                        "EQBYPASS": 0.0,
+                        "EQPOS": 0.0,
+                        "BASS": -2.6370370388031006,
+                        "BFREQ": 264.55078125,
+                        "MID": 1.748147964477539,
+                        "MFREQ": 1600.669677734375,
+                        "MIDQ": 2.2276790142059326,
+                        "MTYPE": 0.0,
+                        "TREBLE": 1.096295952796936,
+                        "TFREQ": 1790.1785888671875,
+                        "DEPTH": -4.918519020080566,
+                        "PRESENCE": 1.600000023841858,
+                        "MASTER": -4.722221851348877,
+                        "enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/rt_neural_generic-Mesa_Clean.lv2/Mesa_Clean.ttl"
+                },
+                "ts9sim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -13.410714149475098,
+                        "fslider1_": 640.4017944335938,
+                        "fslider2_": 0.3833709955215454
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 847.8236694335938,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Compress": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "measure": 0.0,
+                        "mode": 1.0,
+                        "threshold": 0.5,
+                        "strength": 0.7137276785714282,
+                        "attack": 0.8671875000000003,
+                        "release": 0.49553571428571425,
+                        "gain": 3.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316964285714296,
+                        "delay": 0.02131696460336177,
+                        "depth": 0.09319196428571436,
+                        "freq": 1.243582590603701
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "TS9_FULL",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - i5 1 - Cap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader-Fender_twin_reverb_L.lv2/Fender_twin_reverb_L.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - i5 2 - Cap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Fender_Twin_Reverb_R.lv2/Fender_Twin_Reverb_R.ttl"
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.4375,
+                        "GATE": -55.0,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.4642859995365143,
+                        "LEVEL": -14.160714149475098
+                    },
+                    "preset": ""
+                },
+                "ConvolutionLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/ConvolutionLoader#irfile": [
+                            "/var/modep/user-files/Reverb IRs/Fender Spring Reverb Tank/Fender Reverb Tank_Dwell 02_Tone 03.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "drylevel": 0.0,
+                        "wetlevel": -2.779017925262451,
+                        "hpf": 0.0,
+                        "trails": 1.0,
+                        "lv2_enabled": 1.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ConvolutionLoader-Background.lv2/Background.ttl"
+                },
+                "DS1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.07758799940347672,
+                        "Level": 0.20983900129795074,
+                        "Dist": 0.8444809913635254
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.0,
+                        "tone": 0.7407410144805908,
+                        "volume": 0.7777780294418335,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modspectre": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_2": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "modspectre_3": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "response": 1.0
+                    },
+                    "preset": ""
+                },
+                "rt_neural_generic": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json": [
+                            "/var/modep/user-files/Aida DSP Models/Mesa Boogie Mark III Red Stripe -87 (Aida X)/MESA_MK3_CLEAN_LIGHTEST_MELODISAMPO.aidax",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "ANTIALIASING": 66.21600341796875,
+                        "PREGAIN": 8.800000190734863,
+                        "NETBYPASS": 0.0,
+                        "PARAM1": 0.0,
+                        "PARAM2": 0.0,
+                        "EQBYPASS": 0.0,
+                        "EQPOS": 0.0,
+                        "BASS": -2.6370370388031006,
+                        "BFREQ": 264.55078125,
+                        "MID": 1.748147964477539,
+                        "MFREQ": 1600.669677734375,
+                        "MIDQ": 2.2276790142059326,
+                        "MTYPE": 0.0,
+                        "TREBLE": 1.096295952796936,
+                        "TFREQ": 1790.1785888671875,
+                        "DEPTH": -4.918519020080566,
+                        "PRESENCE": 1.600000023841858,
+                        "MASTER": -4.722221851348877,
+                        "enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/rt_neural_generic-Mesa_Clean.lv2/Mesa_Clean.ttl"
+                },
+                "ts9sim": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -13.410714149475098,
+                        "fslider1_": 640.4017944335938,
+                        "fslider2_": 0.3833709955215454
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -13.77232142857143,
+                        "fslider1_": 651.953125,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Compress": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "measure": 0.0,
+                        "mode": 1.0,
+                        "threshold": 0.5,
+                        "strength": 0.7137276785714282,
+                        "attack": 0.8671875000000003,
+                        "release": 0.49553571428571425,
+                        "gain": 3.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316964285714296,
+                        "delay": 0.02131696460336177,
+                        "depth": 0.09319196428571436,
+                        "freq": 1.243582590603701
                     },
                     "preset": ""
                 }
