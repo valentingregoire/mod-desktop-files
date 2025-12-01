@@ -8,91 +8,91 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <bolliedelayxt/OP_OUTPUT_CH1> ;
-    ingen:head <ConvolutionLoader/lv2_audio_in_1> .
-
-_:b2
-    ingen:tail <Schrammel_OJD/lv2_audio_out> ;
-    ingen:head <ts9sim/in> .
-
-_:b3
-    ingen:tail <bolliedelayxt/OP_OUTPUT_CH2> ;
-    ingen:head <ConvolutionLoader/lv2_audio_in_2> .
-
-_:b4
-    ingen:tail <ts9sim/out> ;
-    ingen:head <ts9sim_1/in> .
-
-_:b5
     ingen:tail <rt_neural_generic/OUT> ;
     ingen:head <CabinetLoader/lv2_audio_in> .
 
-_:b6
-    ingen:tail <rt_neural_generic/OUT> ;
-    ingen:head <modspectre_1/in> .
+_:b2
+    ingen:tail <ts9sim/out> ;
+    ingen:head <ts9sim_1/in> .
 
-_:b7
-    ingen:tail <DS1/Out1> ;
-    ingen:head <rt_neural_generic/IN> .
-
-_:b8
-    ingen:tail <rt_neural_generic/OUT> ;
-    ingen:head <CabinetLoader_1/lv2_audio_in> .
-
-_:b9
+_:b3
     ingen:tail <CabinetLoader_1/lv2_audio_out> ;
     ingen:head <modspectre_3/in> .
 
-_:b10
-    ingen:tail <Compress/out> ;
-    ingen:head <Schrammel_OJD/lv2_audio_in> .
+_:b4
+    ingen:tail <rt_neural_generic/OUT> ;
+    ingen:head <modspectre_1/in> .
 
-_:b11
-    ingen:tail <capture_1> ;
-    ingen:head <modspectre/in> .
+_:b5
+    ingen:tail <rt_neural_generic/OUT> ;
+    ingen:head <CabinetLoader_1/lv2_audio_in> .
 
-_:b12
-    ingen:tail <CollisionDrive/out> ;
-    ingen:head <DS1/In> .
+_:b6
+    ingen:tail <DS1/Out1> ;
+    ingen:head <rt_neural_generic/IN> .
 
-_:b13
-    ingen:tail <capture_1> ;
-    ingen:head <Compress/in> .
-
-_:b14
-    ingen:tail <ConvolutionLoader/lv2_audio_out_1> ;
-    ingen:head <playback_1> .
-
-_:b15
+_:b7
     ingen:tail <ConvolutionLoader/lv2_audio_out_2> ;
     ingen:head <playback_2> .
 
-_:b16
+_:b8
     ingen:tail <CabinetLoader/lv2_audio_out> ;
     ingen:head <modspectre_2/in> .
 
-_:b17
-    ingen:tail <ts9sim_1/out> ;
-    ingen:head <CollisionDrive/in> .
+_:b9
+    ingen:tail <bolliedelayxt/OP_OUTPUT_CH2> ;
+    ingen:head <ConvolutionLoader/lv2_audio_in_2> .
 
-_:b18
-    ingen:tail <CabinetLoader/lv2_audio_out> ;
-    ingen:head <_chorus_stereo/in> .
-
-_:b19
-    ingen:tail <CabinetLoader_1/lv2_audio_out> ;
-    ingen:head <_chorus_stereo/in1> .
-
-_:b20
-    ingen:tail <_chorus_stereo/out> ;
-    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
-
-_:b21
+_:b10
     ingen:tail <_chorus_stereo/out1> ;
     ingen:head <bolliedelayxt/IP_INPUT_CH2> .
 
+_:b11
+    ingen:tail <ts9sim_1/out> ;
+    ingen:head <CollisionDrive/in> .
+
+_:b12
+    ingen:tail <_chorus_stereo/out> ;
+    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
+
+_:b13
+    ingen:tail <CabinetLoader/lv2_audio_out> ;
+    ingen:head <_chorus_stereo/in> .
+
+_:b14
+    ingen:tail <Schrammel_OJD/lv2_audio_out> ;
+    ingen:head <ts9sim/in> .
+
+_:b15
+    ingen:tail <CabinetLoader_1/lv2_audio_out> ;
+    ingen:head <_chorus_stereo/in1> .
+
+_:b16
+    ingen:tail <capture_1> ;
+    ingen:head <modspectre/in> .
+
+_:b17
+    ingen:tail <CollisionDrive/out> ;
+    ingen:head <DS1/In> .
+
+_:b18
+    ingen:tail <Compress/out> ;
+    ingen:head <Schrammel_OJD/lv2_audio_in> .
+
+_:b19
+    ingen:tail <bolliedelayxt/OP_OUTPUT_CH1> ;
+    ingen:head <ConvolutionLoader/lv2_audio_in_1> .
+
+_:b20
+    ingen:tail <ConvolutionLoader/lv2_audio_out_1> ;
+    ingen:head <playback_1> .
+
+_:b21
+    ingen:tail <capture_1> ;
+    ingen:head <Compress/in> .
+
 <CabinetLoader>
-    ingen:canvasX 3194.0 ;
+    ingen:canvasX 3489.5 ;
     ingen:canvasY 496.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
@@ -134,7 +134,7 @@ _:b21
         lv2:InputPort .
 
 <CabinetLoader_1>
-    ingen:canvasX 3189.0 ;
+    ingen:canvasX 3484.5 ;
     ingen:canvasY 1080.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
@@ -176,7 +176,7 @@ _:b21
         lv2:InputPort .
 
 <CollisionDrive>
-    ingen:canvasX 1007.0 ;
+    ingen:canvasX 1302.5 ;
     ingen:canvasY 178.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -247,9 +247,9 @@ _:b21
         lv2:InputPort .
 
 <Compress>
-    ingen:canvasX 225.0 ;
+    ingen:canvasX 522.5 ;
     ingen:canvasY 199.0 ;
-    ingen:enabled true ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 24 ;
     lv2:minorVersion 9 ;
@@ -319,12 +319,12 @@ _:b21
         lv2:OutputPort .
 
 <Compress/:bypass>
-    ingen:value 0 ;
+    ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <ConvolutionLoader>
-    ingen:canvasX 4724.0 ;
+    ingen:canvasX 5019.5 ;
     ingen:canvasY 829.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
@@ -400,7 +400,7 @@ _:b21
         lv2:InputPort .
 
 <DS1>
-    ingen:canvasX 1257.0 ;
+    ingen:canvasX 1552.5 ;
     ingen:canvasY 179.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -448,7 +448,7 @@ _:b21
         lv2:InputPort .
 
 <Schrammel_OJD>
-    ingen:canvasX 647.0 ;
+    ingen:canvasX 942.5 ;
     ingen:canvasY 127.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -513,8 +513,72 @@ _:b21
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<_chorus_stereo>
+    ingen:canvasX 4355.5 ;
+    ingen:canvasY 255.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <_chorus_stereo/in> ,
+             <_chorus_stereo/in1> ,
+             <_chorus_stereo/out> ,
+             <_chorus_stereo/out1> ,
+             <_chorus_stereo/level> ,
+             <_chorus_stereo/delay> ,
+             <_chorus_stereo/depth> ,
+             <_chorus_stereo/freq> ,
+             <_chorus_stereo/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_chorus_stereo#_chorus_stereo> ;
+    pedal:instanceNumber 43 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<_chorus_stereo/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/in1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_chorus_stereo/in1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_chorus_stereo/level>
+    ingen:value 0.463170 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/delay>
+    ingen:value 0.021317 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/depth>
+    ingen:value 0.093192 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/freq>
+    ingen:value 1.243583 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <bolliedelayxt>
-    ingen:canvasX 4484.9 ;
+    ingen:canvasX 4779.5 ;
     ingen:canvasY 200.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
@@ -727,7 +791,7 @@ _:b21
         lv2:InputPort .
 
 <mod>
-    ingen:canvasX 566.0 ;
+    ingen:canvasX 861.5 ;
     ingen:canvasY 1529.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -846,7 +910,7 @@ _:b21
         lv2:InputPort .
 
 <modspectre>
-    ingen:canvasX 468.0 ;
+    ingen:canvasX 763.5 ;
     ingen:canvasY 1144.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -881,7 +945,7 @@ _:b21
         lv2:InputPort .
 
 <modspectre_1>
-    ingen:canvasX 2101.0 ;
+    ingen:canvasX 2396.5 ;
     ingen:canvasY 14.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
@@ -916,7 +980,7 @@ _:b21
         lv2:InputPort .
 
 <modspectre_2>
-    ingen:canvasX 3269.0 ;
+    ingen:canvasX 3564.5 ;
     ingen:canvasY 104.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -951,7 +1015,7 @@ _:b21
         lv2:InputPort .
 
 <modspectre_3>
-    ingen:canvasX 3252.0 ;
+    ingen:canvasX 3547.5 ;
     ingen:canvasY 1608.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -986,7 +1050,7 @@ _:b21
         lv2:InputPort .
 
 <rt_neural_generic>
-    ingen:canvasX 1769.0 ;
+    ingen:canvasX 2064.5 ;
     ingen:canvasY 360.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
@@ -1135,7 +1199,7 @@ _:b21
         lv2:InputPort .
 
 <ts9sim>
-    ingen:canvasX 761.0 ;
+    ingen:canvasX 1056.5 ;
     ingen:canvasY 701.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
@@ -1183,7 +1247,7 @@ _:b21
         lv2:InputPort .
 
 <ts9sim_1>
-    ingen:canvasX 1196.0 ;
+    ingen:canvasX 1491.5 ;
     ingen:canvasY 702.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
@@ -1226,70 +1290,6 @@ _:b21
         lv2:InputPort .
 
 <ts9sim_1/:bypass>
-    ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo>
-    ingen:canvasX 4060.2 ;
-    ingen:canvasY 255.5 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <_chorus_stereo/in> ,
-             <_chorus_stereo/in1> ,
-             <_chorus_stereo/out> ,
-             <_chorus_stereo/out1> ,
-             <_chorus_stereo/level> ,
-             <_chorus_stereo/delay> ,
-             <_chorus_stereo/depth> ,
-             <_chorus_stereo/freq> ,
-             <_chorus_stereo/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_chorus_stereo#_chorus_stereo> ;
-    pedal:instanceNumber 43 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<_chorus_stereo/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/in1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<_chorus_stereo/in1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<_chorus_stereo/level>
-    ingen:value 0.463170 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/delay>
-    ingen:value 0.021317 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/depth>
-    ingen:value 0.093192 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/freq>
-    ingen:value 1.243583 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/:bypass>
     ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -1385,7 +1385,7 @@ _:b21
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 61 ;
+    pedal:version 62 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -1415,6 +1415,7 @@ _:b21
                 <ConvolutionLoader> ,
                 <DS1> ,
                 <Schrammel_OJD> ,
+                <_chorus_stereo> ,
                 <bolliedelayxt> ,
                 <mod> ,
                 <modspectre> ,
@@ -1423,8 +1424,7 @@ _:b21
                 <modspectre_3> ,
                 <rt_neural_generic> ,
                 <ts9sim> ,
-                <ts9sim_1> ,
-                <_chorus_stereo> ;
+                <ts9sim_1> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
