@@ -5,13 +5,13 @@
             "name": "Default",
             "data": {
                 "bluesbreaker": {
-                    "bypassed": false,
+                    "bypassed": true,
                     "parameters": {},
                     "ports": {
-                        "Bypass": 1.0,
-                        "GAIN": 0.5,
-                        "TONE": 0.5,
-                        "VOLUME": 0.5
+                        "Bypass": 0.0,
+                        "GAIN": 0.6512276785714285,
+                        "TONE": 0.1501116071428571,
+                        "VOLUME": 0.30468749999999994
                     },
                     "preset": ""
                 },
@@ -118,60 +118,6 @@
                     "parameters": {},
                     "ports": {
                         "response": 1.0
-                    },
-                    "preset": ""
-                },
-                "ratatouille": {
-                    "bypassed": false,
-                    "parameters": {
-                        "urn:brummer:ratatouille#Neural_Model": [
-                            "/var/modep/user-files/NAM Models/Fender Bassman 50 (0.5.2)/Fender Bassman 50 - Normal Channel - Bright On - G4.5.nam",
-                            "p"
-                        ],
-                        "urn:brummer:ratatouille#Neural_Model1": [
-                            "None",
-                            "p"
-                        ],
-                        "urn:brummer:ratatouille#irfile": [
-                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Center.wav",
-                            "p"
-                        ],
-                        "urn:brummer:ratatouille#irfile1": [
-                            "None",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "Knob0": -6.1,
-                        "Knob1": -2.1000000000000014,
-                        "Knob2": 0.5,
-                        "Knob3": 0.5,
-                        "Knob4": 0.0,
-                        "NormalizeA": 0.0,
-                        "NormalizeB": 0.0,
-                        "Knob5": 0.0,
-                        "NormalizeSlotA": 0.0,
-                        "NormalizeSlotB": 0.0,
-                        "ENABLE": 1.0,
-                        "eraseSlotA": 0.0,
-                        "eraseSlotB": 0.0,
-                        "eraseIr": 0.0,
-                        "eraseIr1": 0.0,
-                        "buffered": 0.0,
-                        "phase": 0.0
-                    },
-                    "preset": ""
-                },
-                "CollisionDrive": {
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 0.0,
-                        "BRIGHT": 0.5368303571428572,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.11551339285714282,
-                        "LEVEL": -15.058035714285719
                     },
                     "preset": ""
                 },
@@ -381,6 +327,99 @@
                         "freq": 1.243582590603701
                     },
                     "preset": ""
+                },
+                "ZamAutoSat_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 10.0,
+                        "blend": 10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 1.0,
+                        "channel2": 1.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/The legend Celestion Vintage 30 4x12/Vintage 30 4x12 close.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.3470982142857143,
+                        "GATE": -55.0,
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.6713169642857146,
+                        "LEVEL": -13.517857142857142
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 0.0,
+                        "channel2": 0.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -461,19 +500,6 @@
                     "ports": {
                         "level": -12.0,
                         "lv2_enabled": 1.0
-                    },
-                    "preset": ""
-                },
-                "CollisionDrive": {
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 0.0,
-                        "BRIGHT": 0.15401799976825714,
-                        "GATE": -55.0,
-                        "ATTACK": 1.0,
-                        "DRIVE": 0.4642859995365143,
-                        "LEVEL": -12.165179252624512
                     },
                     "preset": ""
                 },
@@ -639,6 +665,110 @@
                         "delay": 0.02131696460336177,
                         "depth": 0.09319196428571436,
                         "freq": 1.243582590603701
+                    },
+                    "preset": ""
+                },
+                "bluesbreaker": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 0.0,
+                        "GAIN": 0.6512276785714285,
+                        "TONE": 0.1501116071428571,
+                        "VOLUME": 0.30468749999999994
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 10.0,
+                        "blend": 10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 1.0,
+                        "channel2": 1.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/The legend Celestion Vintage 30 4x12/Vintage 30 4x12 close.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.3470982142857143,
+                        "GATE": -55.0,
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.6713169642857146,
+                        "LEVEL": -13.517857142857142
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 0.0,
+                        "channel2": 0.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
                     },
                     "preset": ""
                 }
@@ -724,19 +854,6 @@
                     },
                     "preset": ""
                 },
-                "CollisionDrive": {
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 0.0,
-                        "BRIGHT": 0.15401799976825714,
-                        "GATE": -55.0,
-                        "ATTACK": 1.0,
-                        "DRIVE": 0.4642859995365143,
-                        "LEVEL": -12.165179252624512
-                    },
-                    "preset": ""
-                },
                 "mod": {
                     "bypassed": false,
                     "parameters": {},
@@ -901,6 +1018,110 @@
                         "freq": 1.243582590603701
                     },
                     "preset": ""
+                },
+                "bluesbreaker": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 0.0,
+                        "GAIN": 0.6512276785714285,
+                        "TONE": 0.1501116071428571,
+                        "VOLUME": 0.30468749999999994
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 10.0,
+                        "blend": 10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 1.0,
+                        "channel2": 1.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/The legend Celestion Vintage 30 4x12/Vintage 30 4x12 close.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.3470982142857143,
+                        "GATE": -55.0,
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.6713169642857146,
+                        "LEVEL": -13.517857142857142
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 0.0,
+                        "channel2": 0.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -934,19 +1155,6 @@
                         "lv2_enabled": 1.0
                     },
                     "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Fender_Twin_Reverb_R.lv2/Fender_Twin_Reverb_R.ttl"
-                },
-                "CollisionDrive": {
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 0.0,
-                        "BRIGHT": 0.4375,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.4642859995365143,
-                        "LEVEL": -14.160714149475098
-                    },
-                    "preset": ""
                 },
                 "ConvolutionLoader": {
                     "bypassed": false,
@@ -1145,6 +1353,110 @@
                         "delay": 0.02131696460336177,
                         "depth": 0.09319196428571436,
                         "freq": 1.243582590603701
+                    },
+                    "preset": ""
+                },
+                "bluesbreaker": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 0.0,
+                        "GAIN": 0.6512276785714285,
+                        "TONE": 0.1501116071428571,
+                        "VOLUME": 0.30468749999999994
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 10.0,
+                        "blend": 10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 1.0,
+                        "channel2": 1.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/The legend Celestion Vintage 30 4x12/Vintage 30 4x12 close.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.3470982142857143,
+                        "GATE": -55.0,
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.6713169642857146,
+                        "LEVEL": -13.517857142857142
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 0.0,
+                        "channel2": 0.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
                     },
                     "preset": ""
                 }
@@ -1181,19 +1493,6 @@
                     },
                     "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Fender_Twin_Reverb_R.lv2/Fender_Twin_Reverb_R.ttl"
                 },
-                "CollisionDrive": {
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 0.0,
-                        "BRIGHT": 0.4375,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.4642859995365143,
-                        "LEVEL": -14.160714149475098
-                    },
-                    "preset": ""
-                },
                 "ConvolutionLoader": {
                     "bypassed": false,
                     "parameters": {
@@ -1391,6 +1690,110 @@
                         "delay": 0.02131696460336177,
                         "depth": 0.09319196428571436,
                         "freq": 1.243582590603701
+                    },
+                    "preset": ""
+                },
+                "bluesbreaker": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 0.0,
+                        "GAIN": 0.6512276785714285,
+                        "TONE": 0.1501116071428571,
+                        "VOLUME": 0.30468749999999994
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 10.0,
+                        "blend": 10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 1.0,
+                        "channel2": 1.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/The legend Celestion Vintage 30 4x12/Vintage 30 4x12 close.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.3470982142857143,
+                        "GATE": -55.0,
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.6713169642857146,
+                        "LEVEL": -13.517857142857142
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 0.0,
+                        "channel2": 0.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
                     },
                     "preset": ""
                 }
@@ -1427,19 +1830,6 @@
                     },
                     "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Fender_Twin_Reverb_R.lv2/Fender_Twin_Reverb_R.ttl"
                 },
-                "CollisionDrive": {
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 0.0,
-                        "BRIGHT": 0.4375,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.4642859995365143,
-                        "LEVEL": -14.160714149475098
-                    },
-                    "preset": ""
-                },
                 "ConvolutionLoader": {
                     "bypassed": false,
                     "parameters": {
@@ -1639,6 +2029,110 @@
                         "freq": 1.243582590603701
                     },
                     "preset": ""
+                },
+                "bluesbreaker": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 0.0,
+                        "GAIN": 0.6512276785714285,
+                        "TONE": 0.1501116071428571,
+                        "VOLUME": 0.30468749999999994
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 10.0,
+                        "blend": 10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 1.0,
+                        "channel2": 1.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/The legend Celestion Vintage 30 4x12/Vintage 30 4x12 close.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.3470982142857143,
+                        "GATE": -55.0,
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.6713169642857146,
+                        "LEVEL": -13.517857142857142
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 0.0,
+                        "channel2": 0.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -1672,19 +2166,6 @@
                         "lv2_enabled": 1.0
                     },
                     "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Fender_Twin_Reverb_R.lv2/Fender_Twin_Reverb_R.ttl"
-                },
-                "CollisionDrive": {
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 0.0,
-                        "BRIGHT": 0.4375,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.4642859995365143,
-                        "LEVEL": -14.160714149475098
-                    },
-                    "preset": ""
                 },
                 "ConvolutionLoader": {
                     "bypassed": false,
@@ -1883,6 +2364,110 @@
                         "delay": 0.02131696460336177,
                         "depth": 0.09319196428571436,
                         "freq": 1.243582590603701
+                    },
+                    "preset": ""
+                },
+                "bluesbreaker": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 0.0,
+                        "GAIN": 0.6512276785714285,
+                        "TONE": 0.1501116071428571,
+                        "VOLUME": 0.30468749999999994
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "ZamAutoSat_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 10.0,
+                        "blend": 10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 1.0,
+                        "channel2": 1.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/The legend Celestion Vintage 30 4x12/Vintage 30 4x12 close.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CollisionDrive": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "BRIGHT": 0.3470982142857143,
+                        "GATE": -55.0,
+                        "ATTACK": 1.0,
+                        "DRIVE": 0.6713169642857146,
+                        "LEVEL": -13.517857142857142
+                    },
+                    "preset": ""
+                },
+                "SwitchTrigger4_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "channel1": 0.0,
+                        "channel2": 0.0,
+                        "channel3": 0.0,
+                        "channel4": 0.0
                     },
                     "preset": ""
                 }

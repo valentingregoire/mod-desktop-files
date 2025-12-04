@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <https://mod.audio/plugins/CabinetLoader> ;
 	state:state [
-		<https://mod.audio/plugins/CabinetLoader#irfile> <file:///var/modep/user-files/Speaker%20Cabinets%20IRs/1971%20Fender%20Twin%20Reverb%20Cabinet%20with%20Oxford%2012T6-10%20IR%20Collection/1971%20Fender%20Twin%20Reverb%202x12%20Oxford%2012T6-10%20-%20i5%202%20-%20Cap.wav>
+		<https://mod.audio/plugins/CabinetLoader#irfile> <file:///var/modep/user-files/Speaker%20Cabinets%20IRs/Celestion%20G12-65%20Heritage%20UK%20made/g12-65%20cc8.wav>
 	] .
 
