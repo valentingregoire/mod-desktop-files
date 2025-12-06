@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <https://mod.audio/plugins/CabinetLoader> ;
 	state:state [
-		<https://mod.audio/plugins/CabinetLoader#irfile> <file:///var/modep/user-files/Speaker%20Cabinets%20IRs/Celestion%20G12-65%20Heritage%20UK%20made/g12-65%20cc8.wav>
+		<https://mod.audio/plugins/CabinetLoader#irfile> <file:///var/modep/user-files/Speaker%20Cabinets%20IRs/Eminence%20Karnivore%208%20Ohm,%20Engl%20E412%20Pro%204%20x%2012%20(96Khz)/Engl_MD421_Cone.wav>
 	] .
 

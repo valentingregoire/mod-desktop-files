@@ -8,8 +8,5 @@
 
 <>
 	a pset:Preset ;
-	lv2:appliesTo <http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic> ;
-	state:state [
-		<http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json> <jcm900_slx_deer_ink_studiosLSTM-16.aidax>
-	] .
+	lv2:appliesTo <urn:zamaudio:ZamAutoSat> .
 

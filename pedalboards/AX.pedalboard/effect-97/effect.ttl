@@ -8,8 +8,8 @@
 
 <>
 	a pset:Preset ;
-	lv2:appliesTo <http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic> ;
+	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
 	state:state [
-		<http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json> <jcm900_slx_deer_ink_studiosLSTM-16.aidax>
+		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Klone.nam>
 	] .
 
