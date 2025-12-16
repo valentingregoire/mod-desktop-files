@@ -2,8 +2,8 @@
 
 ## General info
 
-* [HifiBerry Studio DAC/ADC XLR info](https://www.hifiberry.com/shop/boards/hifiberry-studio-dacadc-xlr/)
-* [HifiBerry Studio DAC/ADC XLR datasheet](https://www.hifiberry.com/docs/data-sheets/datasheet-studio-dac-adc/)
+- [HifiBerry Studio DAC/ADC XLR info](https://www.hifiberry.com/shop/boards/hifiberry-studio-dacadc-xlr/)
+- [HifiBerry Studio DAC/ADC XLR datasheet](https://www.hifiberry.com/docs/data-sheets/datasheet-studio-dac-adc/)
 
 ## Installation
 
@@ -26,8 +26,8 @@ it with `qjackctl`, which is very useful. This is the command I use that works:
 ```
 
 I had to set all sorts of parameters to make sure it works. This is the
-equivalent command that works for jack. Try to replicate all the parameters
-via `jack_control`:
+equivalent command that works for jack. Try to replicate all the parameters via
+`jack_control`:
 
 ```bash
 /usr/bin/jackd -t 2000 -R -d alsa -dhw:sndrpihifiberry,0 -r 48000 -p 128 -n 2 -X seq -s -S -i 2 -o 2
@@ -97,18 +97,23 @@ the official `mod-ui` repo as well.
    source modep-modui-venv/bin/activate
    ```
 
-5. install the dependencies, but with version `3.4` for `pyserial`. Therefore, adapt the
-   file `requirements.txt` and put this change the version of to `3.4`:
+5. install the dependencies, but with version `3.4` for `pyserial`. Therefore,
+   adapt the file `requirements.txt` and put this change the version of to
+   `3.4`:
 
    ```bash
    pyserial==3.4
    ```
 
-   Now install: `bash   pip install -Ur requirements.txt   `
+   Now install:
 
-   Since we are using Python 3.10, we need to hack a little because `collections.MutableMapping` is not
-   supported anymore in Python 3.10. Instead, we need to use the `abc` version
-   instead:
+   ```bash
+   pip install -Ur requirements.txt
+   ```
+
+   Since we are using Python 3.10, we need to hack a little because
+   `collections.MutableMapping` is not supported anymore in Python 3.10.
+   Instead, we need to use the `abc` version instead:
 
    ```bash
     sed -i -e 's/collections.MutableMapping/collections.abc.MutableMapping/' \               git:main*
@@ -117,7 +122,7 @@ the official `mod-ui` repo as well.
    ```
 
 6. create a file called `.env` where we will store some environmental variables
-   that need to be set in order to let mopdep-mod-ui interact with
+   that need to be set in order to let modep-mod-ui interact with
    modep-mod-host:
 
    ```bash
@@ -144,7 +149,7 @@ the official `mod-ui` repo as well.
     #export MOD_API_KEY=/var/modep/mod_api_key.pub
     export MOD_HTML_DIR=/usr/share/mod/html
     export MOD_DEFAULT_PEDALBOARD=/usr/share/mod/default.pedalboard
-    ```
+   ```
 
 7. run the server:
 
