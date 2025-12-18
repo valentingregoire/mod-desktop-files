@@ -1,0 +1,162 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "rt_neural_generic": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://aidadsp.cc/plugins/aidadsp-bundle/rt-neural-generic#json": [
+                            "/home/valentin/Downloads/mod-desktop-0.0.12-linux-x86_64/mod-desktop/plugins/rt-neural-generic.lv2/models/deer ink studios/tw40_california_clean_deerinkstudios.json",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "ANTIALIASING": 66.21600341796875,
+                        "PREGAIN": 0.0,
+                        "NETBYPASS": 0.0,
+                        "PARAM1": 0.0,
+                        "PARAM2": 0.0,
+                        "EQBYPASS": 0.0,
+                        "EQPOS": 0.0,
+                        "BASS": 0.0,
+                        "BFREQ": 305.0,
+                        "MID": 0.0,
+                        "MFREQ": 750.0,
+                        "MIDQ": 0.7070000171661377,
+                        "MTYPE": 0.0,
+                        "TREBLE": 0.0,
+                        "TFREQ": 2000.0,
+                        "DEPTH": 0.0,
+                        "PRESENCE": 0.0,
+                        "DCBLOCKER": 1.0,
+                        "MASTER": 0.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/home/valentin/Documents/MOD Desktop/user-files/Speaker Cabinets IRs/1971 Fender Twin Reverb Cabinet with Oxford 12T6-10 IR Collection/1971 Fender Twin Reverb 2x12 Oxford 12T6-10 - C414 - Distant 24In.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Vox AC15/Vox AC15CH Crystal Clean TB.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": -5.25170068027211,
+                        "buffered": 0.0
+                    },
+                    "preset": ""
+                },
+                "_compressor": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "RATIO": 2.0,
+                        "KNEE": 3.0,
+                        "THRESHOLD": -20.0,
+                        "RELEASE": 0.5,
+                        "ATTACK": 0.0020000000949949026
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.0,
+                        "fslider1_": 547.488839285714,
+                        "fslider2_": 0.5
+                    },
+                    "preset": ""
+                },
+                "_3BandEQ": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "low": 0.0,
+                        "mid": 0.0,
+                        "high": 0.0,
+                        "master": 0.0,
+                        "low_mid": 220.0,
+                        "mid_high": 2000.0
+                    },
+                    "preset": "file:///var/modep/lv2/3BandEQ.lv2/default-preset"
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 0.0,
+                        "HPfreq": 20.0,
+                        "HPQ": 0.699999988079071,
+                        "LowPass": 0.0,
+                        "LPfreq": 20000.0,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 1.0,
+                        "LSgain": 0.0,
+                        "sec1": 1.0,
+                        "freq1": 160.0,
+                        "q1": 0.6000000238418579,
+                        "gain1": 0.0,
+                        "sec2": 1.0,
+                        "freq2": 397.0,
+                        "q2": 0.6000000238418579,
+                        "gain2": 0.0,
+                        "sec3": 1.0,
+                        "freq3": 1250.0,
+                        "q3": 0.6000000238418579,
+                        "gain3": 0.0,
+                        "sec4": 1.0,
+                        "freq4": 2500.0,
+                        "q4": 0.6000000238418579,
+                        "gain4": 0.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8000.0,
+                        "HSq": 1.0,
+                        "HSgain": 0.0
+                    },
+                    "preset": ""
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 0.0
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}

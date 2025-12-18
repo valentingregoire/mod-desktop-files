@@ -1,16 +1,7 @@
 [
     {
         "title": "Bank1",
-        "pedalboards": [
-            {
-                "bundle": "/var/modep/pedalboards/default.pedalboard",
-                "title": "Default"
-            },
-            {
-                "bundle": "/var/modep/pedalboards/AX.pedalboard",
-                "title": "AX"
-            }
-        ]
+        "pedalboards": []
     },
     {
         "title": "Untitled",
