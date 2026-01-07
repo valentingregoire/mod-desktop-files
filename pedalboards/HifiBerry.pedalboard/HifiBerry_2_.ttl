@@ -8,87 +8,87 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <pocketverbs/outR> ;
-    ingen:head <playback_2> .
+    ingen:tail <SwitchBox2/Out1> ;
+    ingen:head <neural_amp_modeler_lv2_1/input> .
 
 _:b2
-    ingen:tail <_fumaster_/out> ;
-    ingen:head <_sd1sim_/in> .
-
-_:b3
-    ingen:tail <_chorus_stereo/out> ;
-    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
-
-_:b4
-    ingen:tail <pocketverbs/outL> ;
-    ingen:head <playback_1> .
-
-_:b5
-    ingen:tail <Compress/out> ;
-    ingen:head <mono/in> .
-
-_:b6
-    ingen:tail <audiofile/lv2_audio_out_1> ;
-    ingen:head <Compress/in> .
-
-_:b7
-    ingen:tail <ToggleSwitch4/Out1> ;
-    ingen:head <ZamAutoSat_3/lv2_audio_in_1> .
-
-_:b8
-    ingen:tail <ts9sim_1/out> ;
-    ingen:head <_sd1sim_/in> .
-
-_:b9
-    ingen:tail <stereo/outL> ;
-    ingen:head <_chorus_stereo/in> .
-
-_:b10
-    ingen:tail <stereo/outR> ;
-    ingen:head <_chorus_stereo/in1> .
-
-_:b11
     ingen:tail <bolliedelayxt/OP_OUTPUT_CH1> ;
     ingen:head <pocketverbs/inL> .
 
-_:b12
+_:b3
+    ingen:tail <bolliedelayxt/OP_OUTPUT_CH2> ;
+    ingen:head <pocketverbs/inR> .
+
+_:b4
     ingen:tail <_3BandEQ/lv2_audio_out_1> ;
     ingen:head <CabinetLoader/lv2_audio_in> .
 
-_:b13
-    ingen:tail <capture_1> ;
-    ingen:head <Compress/in> .
+_:b5
+    ingen:tail <_chorus_stereo/out> ;
+    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
 
-_:b14
+_:b6
+    ingen:tail <ts9sim_1/out> ;
+    ingen:head <_sd1sim_/in> .
+
+_:b7
+    ingen:tail <ts9sim/out> ;
+    ingen:head <_sd1sim_/in> .
+
+_:b8
+    ingen:tail <CabinetLoader/lv2_audio_out> ;
+    ingen:head <stereo/inL> .
+
+_:b9
+    ingen:tail <SwitchBox2/Out2> ;
+    ingen:head <neural_amp_modeler_lv2/input> .
+
+_:b10
+    ingen:tail <mono/out> ;
+    ingen:head <SwitchTrigger4/In> .
+
+_:b11
+    ingen:tail <pocketverbs/outR> ;
+    ingen:head <playback_2> .
+
+_:b12
     ingen:tail <neural_amp_modeler_lv2/output> ;
     ingen:head <_3BandEQ/lv2_audio_in_1> .
 
+_:b13
+    ingen:tail <capture_1> ;
+    ingen:head <mono/in> .
+
+_:b14
+    ingen:tail <stereo/outR> ;
+    ingen:head <_chorus_stereo/in1> .
+
 _:b15
-    ingen:tail <_3BandEQ/lv2_audio_out_2> ;
-    ingen:head <CabinetLoader_1/lv2_audio_in> .
-
-_:b16
-    ingen:tail <ZamAutoSat_3/lv2_audio_out_1> ;
-    ingen:head <mono_1/in> .
-
-_:b17
-    ingen:tail <_sd1sim_/out> ;
-    ingen:head <ZamAutoSat_3/lv2_audio_in_1> .
-
-_:b18
-    ingen:tail <ToggleSwitch4/Out2> ;
+    ingen:tail <SwitchTrigger4/Out2> ;
     ingen:head <ts9sim/in> .
 
+_:b16
+    ingen:tail <mono_1/out> ;
+    ingen:head <SwitchBox2/In> .
+
+_:b17
+    ingen:tail <SwitchTrigger4/Out4> ;
+    ingen:head <_fumaster_/in> .
+
+_:b18
+    ingen:tail <neural_amp_modeler_lv2_1/output> ;
+    ingen:head <_3BandEQ/lv2_audio_in_1> .
+
 _:b19
-    ingen:tail <audiofile/lv2_audio_out_2> ;
-    ingen:head <Compress/in> .
+    ingen:tail <CabinetLoader_1/lv2_audio_out> ;
+    ingen:head <stereo/inR> .
 
 _:b20
-    ingen:tail <mono/out> ;
-    ingen:head <ToggleSwitch4/In> .
+    ingen:tail <stereo/outL> ;
+    ingen:head <_chorus_stereo/in> .
 
 _:b21
-    ingen:tail <ts9sim/out> ;
+    ingen:tail <_fumaster_/out> ;
     ingen:head <_sd1sim_/in> .
 
 _:b22
@@ -96,40 +96,651 @@ _:b22
     ingen:head <bolliedelayxt/IP_INPUT_CH2> .
 
 _:b23
-    ingen:tail <ToggleSwitch4/Out4> ;
-    ingen:head <_fumaster_/in> .
+    ingen:tail <_3BandEQ/lv2_audio_out_2> ;
+    ingen:head <CabinetLoader_1/lv2_audio_in> .
 
 _:b24
-    ingen:tail <ToggleSwitch4/Out3> ;
-    ingen:head <ts9sim_1/in> .
+    ingen:tail <_sd1sim_/out> ;
+    ingen:head <ZamAutoSat_3/lv2_audio_in_1> .
 
 _:b25
-    ingen:tail <bolliedelayxt/OP_OUTPUT_CH2> ;
-    ingen:head <pocketverbs/inR> .
+    ingen:tail <pocketverbs/outL> ;
+    ingen:head <playback_1> .
 
 _:b26
-    ingen:tail <CabinetLoader/lv2_audio_out> ;
-    ingen:head <stereo/inL> .
+    ingen:tail <SwitchTrigger4/Out3> ;
+    ingen:head <ts9sim_1/in> .
 
 _:b27
-    ingen:tail <CabinetLoader_1/lv2_audio_out> ;
-    ingen:head <stereo/inR> .
+    ingen:tail <SwitchTrigger4/Out1> ;
+    ingen:head <ZamAutoSat_3/lv2_audio_in_1> .
 
 _:b28
-    ingen:tail <SwitchBox2/Out1> ;
-    ingen:head <neural_amp_modeler_lv2_1/input> .
+    ingen:tail <ZamAutoSat_3/lv2_audio_out_1> ;
+    ingen:head <mono_1/in> .
 
-_:b29
-    ingen:tail <SwitchBox2/Out2> ;
-    ingen:head <neural_amp_modeler_lv2/input> .
+<stereo>
+    ingen:canvasX 4528.0 ;
+    ingen:canvasY 1775.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <stereo/inL> ,
+             <stereo/inR> ,
+             <stereo/outL> ,
+             <stereo/outR> ,
+             <stereo/gain> ,
+             <stereo/enable> ,
+             <stereo/mute> ,
+             <stereo/level> ,
+             <stereo/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
+    pedal:instanceNumber 81 ;
+    pedal:preset <> ;
+    a ingen:Block .
 
-_:b30
-    ingen:tail <mono_1/out> ;
-    ingen:head <SwitchBox2/In> .
+<stereo/inL>
+    a lv2:AudioPort ,
+        lv2:InputPort .
 
-_:b31
-    ingen:tail <neural_amp_modeler_lv2_1/output> ;
-    ingen:head <_3BandEQ/lv2_audio_in_1> .
+<stereo/inR>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<stereo/inL>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<stereo/inR>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<stereo/gain>
+    ingen:value -2.250000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<stereo/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<stereo/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim>
+    ingen:canvasX 1259.0 ;
+    ingen:canvasY 277.3 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <ts9sim/in> ,
+             <ts9sim/out> ,
+             <ts9sim/fslider0_> ,
+             <ts9sim/fslider1_> ,
+             <ts9sim/fslider2_> ,
+             <ts9sim/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gxts9#ts9sim> ;
+    pedal:instanceNumber 21 ;
+    pedal:preset <file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl> ;
+    a ingen:Block .
+
+<ts9sim/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<ts9sim/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<ts9sim/fslider0_>
+    ingen:value -13.410714 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim/fslider1_>
+    ingen:value 559.040161 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim/fslider2_>
+    ingen:value 0.383371 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim_1>
+    ingen:canvasX 1278.0 ;
+    ingen:canvasY 798.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <ts9sim_1/in> ,
+             <ts9sim_1/out> ,
+             <ts9sim_1/fslider0_> ,
+             <ts9sim_1/fslider1_> ,
+             <ts9sim_1/fslider2_> ,
+             <ts9sim_1/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gxts9#ts9sim> ;
+    pedal:instanceNumber 38 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<ts9sim_1/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<ts9sim_1/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<ts9sim_1/fslider0_>
+    ingen:value -10.598214 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim_1/fslider1_>
+    ingen:value 444.029022 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim_1/fslider2_>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<ts9sim_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetLoader_1>
+    ingen:canvasX 3770.0 ;
+    ingen:canvasY 2072.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <CabinetLoader_1/lv2_audio_in> ,
+             <CabinetLoader_1/lv2_audio_out> ,
+             <CabinetLoader_1/level> ,
+             <CabinetLoader_1/lv2_enabled> ,
+             <CabinetLoader_1/:bypass> ;
+    lv2:prototype <https://mod.audio/plugins/CabinetLoader> ;
+    pedal:instanceNumber 24 ;
+    pedal:preset <file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl> ;
+    a ingen:Block .
+
+<CabinetLoader_1/lv2_audio_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CabinetLoader_1/lv2_audio_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CabinetLoader_1/level>
+    ingen:value -15.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetLoader_1/lv2_enabled>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetLoader_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2>
+    ingen:canvasX 2854.3 ;
+    ingen:canvasY 1376.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <neural_amp_modeler_lv2/input> ,
+             <neural_amp_modeler_lv2/output> ,
+             <neural_amp_modeler_lv2/input_level> ,
+             <neural_amp_modeler_lv2/output_level> ,
+             <neural_amp_modeler_lv2/buffered> ,
+             <neural_amp_modeler_lv2/:bypass> ;
+    lv2:prototype <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
+    pedal:instanceNumber 96 ;
+    pedal:preset <file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl> ;
+    a ingen:Block .
+
+<neural_amp_modeler_lv2/input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2/input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<neural_amp_modeler_lv2/input_level>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2/output_level>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2/buffered>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2_1>
+    ingen:canvasX 2830.0 ;
+    ingen:canvasY 766.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <neural_amp_modeler_lv2_1/input> ,
+             <neural_amp_modeler_lv2_1/output> ,
+             <neural_amp_modeler_lv2_1/input_level> ,
+             <neural_amp_modeler_lv2_1/output_level> ,
+             <neural_amp_modeler_lv2_1/buffered> ,
+             <neural_amp_modeler_lv2_1/:bypass> ;
+    lv2:prototype <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
+    pedal:instanceNumber 107 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<neural_amp_modeler_lv2_1/input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2_1/input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<neural_amp_modeler_lv2_1/input_level>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2_1/output_level>
+    ingen:value -7.809524 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2_1/buffered>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<neural_amp_modeler_lv2_1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<pocketverbs>
+    ingen:canvasX 5992.2 ;
+    ingen:canvasY 1764.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <pocketverbs/inL> ,
+             <pocketverbs/inR> ,
+             <pocketverbs/outL> ,
+             <pocketverbs/outR> ,
+             <pocketverbs/type> ,
+             <pocketverbs/size> ,
+             <pocketverbs/gating> ,
+             <pocketverbs/drywet> ,
+             <pocketverbs/:bypass> ;
+    lv2:prototype <https://hannesbraun.net/ns/lv2/airwindows/pocketverbs> ;
+    pedal:instanceNumber 100 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<pocketverbs/inL>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<pocketverbs/inR>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<pocketverbs/inL>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<pocketverbs/inR>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<pocketverbs/type>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<pocketverbs/size>
+    ingen:value 0.102679 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<pocketverbs/gating>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<pocketverbs/drywet>
+    ingen:value 0.073661 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<pocketverbs/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetLoader>
+    ingen:canvasX 3767.0 ;
+    ingen:canvasY 1499.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <CabinetLoader/lv2_audio_in> ,
+             <CabinetLoader/lv2_audio_out> ,
+             <CabinetLoader/level> ,
+             <CabinetLoader/lv2_enabled> ,
+             <CabinetLoader/:bypass> ;
+    lv2:prototype <https://mod.audio/plugins/CabinetLoader> ;
+    pedal:instanceNumber 18 ;
+    pedal:preset <file:///var/modep/lv2-presets/CabinetLoader-Engl_M160_L.lv2/Engl_M160_L.ttl> ;
+    a ingen:Block .
+
+<CabinetLoader/lv2_audio_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CabinetLoader/lv2_audio_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CabinetLoader/level>
+    ingen:value -15.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetLoader/lv2_enabled>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetLoader/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SwitchBox2>
+    ingen:canvasX 2418.1 ;
+    ingen:canvasY 1366.2 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <SwitchBox2/In> ,
+             <SwitchBox2/Out1> ,
+             <SwitchBox2/Out2> ,
+             <SwitchBox2/Switch> ,
+             <SwitchBox2/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/SwitchBox2> ;
+    pedal:instanceNumber 108 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<SwitchBox2/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<SwitchBox2/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<SwitchBox2/Switch>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<SwitchBox2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo>
+    ingen:canvasX 4823.0 ;
+    ingen:canvasY 1710.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <_chorus_stereo/in> ,
+             <_chorus_stereo/in1> ,
+             <_chorus_stereo/out> ,
+             <_chorus_stereo/out1> ,
+             <_chorus_stereo/level> ,
+             <_chorus_stereo/delay> ,
+             <_chorus_stereo/depth> ,
+             <_chorus_stereo/freq> ,
+             <_chorus_stereo/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_chorus_stereo#_chorus_stereo> ;
+    pedal:instanceNumber 43 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<_chorus_stereo/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/in1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_chorus_stereo/in1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<_chorus_stereo/level>
+    ingen:value 0.463170 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/delay>
+    ingen:value 0.021317 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/depth>
+    ingen:value 0.093192 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/freq>
+    ingen:value 1.243583 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<_chorus_stereo/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod>
+    ingen:canvasX 425.0 ;
+    ingen:canvasY 2482.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mod/in> ,
+             <mod/out> ,
+             <mod/mode> ,
+             <mod/tuning> ,
+             <mod/thresholdRMS> ,
+             <mod/thresholdPostFilter> ,
+             <mod/thresholdFFT> ,
+             <mod/thresholdOverride> ,
+             <mod/thresholdFundamental> ,
+             <mod/thresholdOctave> ,
+             <mod/thresholdOvertones> ,
+             <mod/rms> ,
+             <mod/freq_out> ,
+             <mod/octave> ,
+             <mod/note> ,
+             <mod/cent> ,
+             <mod/accuracy> ,
+             <mod/strobetoui> ,
+             <mod/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tuna#mod> ;
+    pedal:instanceNumber 23 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mod/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mod/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mod/mode>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/tuning>
+    ingen:value 440.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/thresholdRMS>
+    ingen:value -75.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/thresholdPostFilter>
+    ingen:value -45.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/thresholdFFT>
+    ingen:value -40.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/thresholdOverride>
+    ingen:value 20.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/thresholdFundamental>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/thresholdOctave>
+    ingen:value -30.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/thresholdOvertones>
+    ingen:value -15.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mod/rms>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mod/freq_out>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mod/octave>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mod/note>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mod/cent>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mod/accuracy>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mod/strobetoui>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mod/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
 
 <mono>
     ingen:canvasX 713.0 ;
@@ -237,521 +848,59 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<neural_amp_modeler_lv2>
-    ingen:canvasX 2846.3 ;
-    ingen:canvasY 1408.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <neural_amp_modeler_lv2/input> ,
-             <neural_amp_modeler_lv2/output> ,
-             <neural_amp_modeler_lv2/input_level> ,
-             <neural_amp_modeler_lv2/output_level> ,
-             <neural_amp_modeler_lv2/buffered> ,
-             <neural_amp_modeler_lv2/:bypass> ;
-    lv2:prototype <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
-    pedal:instanceNumber 96 ;
-    pedal:preset <file:///var/modep/lv2-presets/neural_amp_modeler_lv2-Dual_Rectifier_Crunch.lv2/Dual_Rectifier_Crunch.ttl> ;
-    a ingen:Block .
-
-<neural_amp_modeler_lv2/input>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2/input>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<neural_amp_modeler_lv2/input_level>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2/output_level>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2/buffered>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<pocketverbs>
-    ingen:canvasX 5992.2 ;
-    ingen:canvasY 1764.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <pocketverbs/inL> ,
-             <pocketverbs/inR> ,
-             <pocketverbs/outL> ,
-             <pocketverbs/outR> ,
-             <pocketverbs/type> ,
-             <pocketverbs/size> ,
-             <pocketverbs/gating> ,
-             <pocketverbs/drywet> ,
-             <pocketverbs/:bypass> ;
-    lv2:prototype <https://hannesbraun.net/ns/lv2/airwindows/pocketverbs> ;
-    pedal:instanceNumber 100 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<pocketverbs/inL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<pocketverbs/inR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<pocketverbs/inL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<pocketverbs/inR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<pocketverbs/type>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<pocketverbs/size>
-    ingen:value 0.102679 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<pocketverbs/gating>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<pocketverbs/drywet>
-    ingen:value 0.073661 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<pocketverbs/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo>
-    ingen:canvasX 4528.0 ;
-    ingen:canvasY 1775.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 770 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <stereo/inL> ,
-             <stereo/inR> ,
-             <stereo/outL> ,
-             <stereo/outR> ,
-             <stereo/gain> ,
-             <stereo/enable> ,
-             <stereo/mute> ,
-             <stereo/level> ,
-             <stereo/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tinygain#stereo> ;
-    pedal:instanceNumber 81 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<stereo/inL>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/inR>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<stereo/gain>
-    ingen:value -2.250000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/enable>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/mute>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<stereo/level>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<stereo/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim>
-    ingen:canvasX 1259.0 ;
-    ingen:canvasY 277.3 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <ts9sim/in> ,
-             <ts9sim/out> ,
-             <ts9sim/fslider0_> ,
-             <ts9sim/fslider1_> ,
-             <ts9sim/fslider2_> ,
-             <ts9sim/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gxts9#ts9sim> ;
-    pedal:instanceNumber 21 ;
-    pedal:preset <file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl> ;
-    a ingen:Block .
-
-<ts9sim/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<ts9sim/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<ts9sim/fslider0_>
-    ingen:value -13.410714 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim/fslider1_>
-    ingen:value 640.401794 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim/fslider2_>
-    ingen:value 0.383371 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CabinetLoader>
-    ingen:canvasX 3767.0 ;
-    ingen:canvasY 1499.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <CabinetLoader/lv2_audio_in> ,
-             <CabinetLoader/lv2_audio_out> ,
-             <CabinetLoader/level> ,
-             <CabinetLoader/lv2_enabled> ,
-             <CabinetLoader/:bypass> ;
-    lv2:prototype <https://mod.audio/plugins/CabinetLoader> ;
-    pedal:instanceNumber 18 ;
-    pedal:preset <file:///var/modep/lv2-presets/CabinetLoader-Engl_M160_L.lv2/Engl_M160_L.ttl> ;
-    a ingen:Block .
-
-<CabinetLoader/lv2_audio_in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<CabinetLoader/lv2_audio_in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<CabinetLoader/level>
-    ingen:value -15.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CabinetLoader/lv2_enabled>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CabinetLoader/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CabinetLoader_1>
-    ingen:canvasX 3770.0 ;
-    ingen:canvasY 2072.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <CabinetLoader_1/lv2_audio_in> ,
-             <CabinetLoader_1/lv2_audio_out> ,
-             <CabinetLoader_1/level> ,
-             <CabinetLoader_1/lv2_enabled> ,
-             <CabinetLoader_1/:bypass> ;
-    lv2:prototype <https://mod.audio/plugins/CabinetLoader> ;
-    pedal:instanceNumber 24 ;
-    pedal:preset <file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl> ;
-    a ingen:Block .
-
-<CabinetLoader_1/lv2_audio_in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<CabinetLoader_1/lv2_audio_in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<CabinetLoader_1/level>
-    ingen:value -15.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CabinetLoader_1/lv2_enabled>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CabinetLoader_1/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Compress>
-    ingen:canvasX 281.0 ;
-    ingen:canvasY 688.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 24 ;
-    lv2:minorVersion 9 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <Compress/in> ,
-             <Compress/out> ,
-             <Compress/measure> ,
-             <Compress/mode> ,
-             <Compress/threshold> ,
-             <Compress/strength> ,
-             <Compress/attack> ,
-             <Compress/release> ,
-             <Compress/gain> ,
-             <Compress/state> ,
-             <Compress/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/caps/Compress> ;
-    pedal:instanceNumber 42 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Compress/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Compress/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Compress/measure>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Compress/mode>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Compress/threshold>
-    ingen:value 0.500000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Compress/strength>
-    ingen:value 0.713728 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Compress/attack>
-    ingen:value 0.867188 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Compress/release>
-    ingen:value 0.495536 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Compress/gain>
-    ingen:value 3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Compress/state>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<Compress/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ToggleSwitch4>
-    ingen:canvasX 879.0 ;
-    ingen:canvasY 555.0 ;
+<SwitchTrigger4>
+    ingen:canvasX 937.1 ;
+    ingen:canvasY 422.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
     lv2:minorVersion 1 ;
     mod:builderVersion 0 ;
     mod:releaseNumber 0 ;
-    lv2:port <ToggleSwitch4/In> ,
-             <ToggleSwitch4/Out1> ,
-             <ToggleSwitch4/Out2> ,
-             <ToggleSwitch4/Out3> ,
-             <ToggleSwitch4/Out4> ,
-             <ToggleSwitch4/channel1> ,
-             <ToggleSwitch4/channel2> ,
-             <ToggleSwitch4/channel3> ,
-             <ToggleSwitch4/channel4> ,
-             <ToggleSwitch4/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/ToggleSwitch4> ;
-    pedal:instanceNumber 65 ;
+    lv2:port <SwitchTrigger4/In> ,
+             <SwitchTrigger4/Out1> ,
+             <SwitchTrigger4/Out2> ,
+             <SwitchTrigger4/Out3> ,
+             <SwitchTrigger4/Out4> ,
+             <SwitchTrigger4/channel1> ,
+             <SwitchTrigger4/channel2> ,
+             <SwitchTrigger4/channel3> ,
+             <SwitchTrigger4/channel4> ,
+             <SwitchTrigger4/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/SwitchTrigger4> ;
+    pedal:instanceNumber 109 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<ToggleSwitch4/In>
+<SwitchTrigger4/In>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<ToggleSwitch4/In>
+<SwitchTrigger4/In>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<ToggleSwitch4/channel1>
+<SwitchTrigger4/channel1>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<ToggleSwitch4/channel2>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ToggleSwitch4/channel3>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ToggleSwitch4/channel4>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ToggleSwitch4/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim_1>
-    ingen:canvasX 1278.0 ;
-    ingen:canvasY 798.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <ts9sim_1/in> ,
-             <ts9sim_1/out> ,
-             <ts9sim_1/fslider0_> ,
-             <ts9sim_1/fslider1_> ,
-             <ts9sim_1/fslider2_> ,
-             <ts9sim_1/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gxts9#ts9sim> ;
-    pedal:instanceNumber 38 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<ts9sim_1/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<ts9sim_1/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<ts9sim_1/fslider0_>
-    ingen:value -10.598214 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim_1/fslider1_>
-    ingen:value 847.823669 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<ts9sim_1/fslider2_>
+<SwitchTrigger4/channel2>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<ts9sim_1/:bypass>
-    ingen:value 0 ;
+<SwitchTrigger4/channel3>
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<ZamAutoSat_3>
-    ingen:canvasX 2101.0 ;
-    ingen:canvasY 786.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 7 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <ZamAutoSat_3/lv2_audio_in_1> ,
-             <ZamAutoSat_3/lv2_audio_out_1> ,
-             <ZamAutoSat_3/:bypass> ;
-    lv2:prototype <urn:zamaudio:ZamAutoSat> ;
-    pedal:instanceNumber 76 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<ZamAutoSat_3/lv2_audio_in_1>
-    a lv2:AudioPort ,
+<SwitchTrigger4/channel4>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
         lv2:InputPort .
 
-<ZamAutoSat_3/lv2_audio_in_1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<ZamAutoSat_3/:bypass>
+<SwitchTrigger4/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -832,67 +981,33 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<_chorus_stereo>
-    ingen:canvasX 4823.0 ;
-    ingen:canvasY 1710.0 ;
-    ingen:enabled false ;
+<ZamAutoSat_3>
+    ingen:canvasX 2101.0 ;
+    ingen:canvasY 786.0 ;
+    ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 3 ;
-    lv2:minorVersion 28 ;
+    lv2:microVersion 7 ;
+    lv2:minorVersion 2 ;
     mod:builderVersion 0 ;
     mod:releaseNumber 0 ;
-    lv2:port <_chorus_stereo/in> ,
-             <_chorus_stereo/in1> ,
-             <_chorus_stereo/out> ,
-             <_chorus_stereo/out1> ,
-             <_chorus_stereo/level> ,
-             <_chorus_stereo/delay> ,
-             <_chorus_stereo/depth> ,
-             <_chorus_stereo/freq> ,
-             <_chorus_stereo/:bypass> ;
-    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_chorus_stereo#_chorus_stereo> ;
-    pedal:instanceNumber 43 ;
+    lv2:port <ZamAutoSat_3/lv2_audio_in_1> ,
+             <ZamAutoSat_3/lv2_audio_out_1> ,
+             <ZamAutoSat_3/:bypass> ;
+    lv2:prototype <urn:zamaudio:ZamAutoSat> ;
+    pedal:instanceNumber 76 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<_chorus_stereo/in>
+<ZamAutoSat_3/lv2_audio_in_1>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<_chorus_stereo/in1>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/in>
+<ZamAutoSat_3/lv2_audio_in_1>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<_chorus_stereo/in1>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<_chorus_stereo/level>
-    ingen:value 0.463170 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/delay>
-    ingen:value 0.021317 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/depth>
-    ingen:value 0.093192 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/freq>
-    ingen:value 1.243583 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<_chorus_stereo/:bypass>
-    ingen:value 1 ;
+<ZamAutoSat_3/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1298,210 +1413,6 @@ _:b31
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<mod>
-    ingen:canvasX 425.0 ;
-    ingen:canvasY 2482.0 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 0 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <mod/in> ,
-             <mod/out> ,
-             <mod/mode> ,
-             <mod/tuning> ,
-             <mod/thresholdRMS> ,
-             <mod/thresholdPostFilter> ,
-             <mod/thresholdFFT> ,
-             <mod/thresholdOverride> ,
-             <mod/thresholdFundamental> ,
-             <mod/thresholdOctave> ,
-             <mod/thresholdOvertones> ,
-             <mod/rms> ,
-             <mod/freq_out> ,
-             <mod/octave> ,
-             <mod/note> ,
-             <mod/cent> ,
-             <mod/accuracy> ,
-             <mod/strobetoui> ,
-             <mod/:bypass> ;
-    lv2:prototype <http://gareus.org/oss/lv2/tuna#mod> ;
-    pedal:instanceNumber 23 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<mod/in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<mod/in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<mod/mode>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/tuning>
-    ingen:value 440.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/thresholdRMS>
-    ingen:value -75.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/thresholdPostFilter>
-    ingen:value -45.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/thresholdFFT>
-    ingen:value -40.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/thresholdOverride>
-    ingen:value 20.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/thresholdFundamental>
-    ingen:value 5.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/thresholdOctave>
-    ingen:value -30.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/thresholdOvertones>
-    ingen:value -15.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<mod/rms>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mod/freq_out>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mod/octave>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mod/note>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mod/cent>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mod/accuracy>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mod/strobetoui>
-    a lv2:ControlPort ,
-        lv2:OutputPort .
-
-<mod/:bypass>
-    ingen:value 1 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2_1>
-    ingen:canvasX 2830.0 ;
-    ingen:canvasY 766.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <neural_amp_modeler_lv2_1/input> ,
-             <neural_amp_modeler_lv2_1/output> ,
-             <neural_amp_modeler_lv2_1/input_level> ,
-             <neural_amp_modeler_lv2_1/output_level> ,
-             <neural_amp_modeler_lv2_1/buffered> ,
-             <neural_amp_modeler_lv2_1/:bypass> ;
-    lv2:prototype <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
-    pedal:instanceNumber 107 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<neural_amp_modeler_lv2_1/input>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2_1/input>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<neural_amp_modeler_lv2_1/input_level>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2_1/output_level>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2_1/buffered>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<neural_amp_modeler_lv2_1/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<SwitchBox2>
-    ingen:canvasX 2418.1 ;
-    ingen:canvasY 1366.2 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 1 ;
-    lv2:minorVersion 1 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <SwitchBox2/In> ,
-             <SwitchBox2/Out1> ,
-             <SwitchBox2/Out2> ,
-             <SwitchBox2/Switch> ,
-             <SwitchBox2/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/SwitchBox2> ;
-    pedal:instanceNumber 108 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<SwitchBox2/In>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<SwitchBox2/In>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<SwitchBox2/Switch>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<SwitchBox2/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <:bpb>
     ingen:value 4.000000 ;
     lv2:index 0 ;
@@ -1588,12 +1499,12 @@ _:b31
     doap:name "HifiBerry (2)" ;
     pedal:unitName "Unknown" ;
     pedal:unitModel "None" ;
-    pedal:width 5064 ;
-    pedal:height 1576 ;
+    pedal:width 5120 ;
+    pedal:height 2370 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 122 ;
+    pedal:version 132 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -1622,31 +1533,27 @@ _:b31
               _:b25 ,
               _:b26 ,
               _:b27 ,
-              _:b28 ,
-              _:b29 ,
-              _:b30 ,
-              _:b31 ;
-    ingen:block <mono> ,
-                <mono_1> ,
-                <neural_amp_modeler_lv2> ,
-                <pocketverbs> ,
-                <stereo> ,
+              _:b28 ;
+    ingen:block <stereo> ,
                 <ts9sim> ,
-                <CabinetLoader> ,
-                <CabinetLoader_1> ,
-                <Compress> ,
-                <ToggleSwitch4> ,
                 <ts9sim_1> ,
-                <ZamAutoSat_3> ,
-                <_3BandEQ> ,
+                <CabinetLoader_1> ,
+                <neural_amp_modeler_lv2> ,
+                <neural_amp_modeler_lv2_1> ,
+                <pocketverbs> ,
+                <CabinetLoader> ,
+                <SwitchBox2> ,
                 <_chorus_stereo> ,
+                <mod> ,
+                <mono> ,
+                <mono_1> ,
+                <SwitchTrigger4> ,
+                <_3BandEQ> ,
+                <ZamAutoSat_3> ,
                 <_fumaster_> ,
                 <_sd1sim_> ,
                 <audiofile> ,
-                <bolliedelayxt> ,
-                <mod> ,
-                <neural_amp_modeler_lv2_1> ,
-                <SwitchBox2> ;
+                <bolliedelayxt> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,

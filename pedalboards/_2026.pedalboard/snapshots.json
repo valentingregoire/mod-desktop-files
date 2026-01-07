@@ -1,0 +1,2045 @@
+{
+    "current": 1,
+    "snapshots": [
+        {
+            "name": "Clean",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_EdgeDustCap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 0.0
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": ""
+                },
+                "_sd1sim_": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.7014510035514832,
+                        "LEVEL": -7.986607074737549,
+                        "TONE": 570.5914916992188
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -1.0714290142059326,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/MARSHALL JCM800 2210 100W/MARSHALL JCM800 2210 100W CH Lead.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl"
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Mesa Boogie Mark IV Clean [Hyper Accuracy]/KDM-Slammin_MKIV_07 Fendery Clean (Dry) S.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -8.335600907029473,
+                        "output_level": 2.0589569160997776,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_1-AC15_Edge.lv2/AC15_Edge.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.803570747375488,
+                        "fslider1_": 591.1830444335938,
+                        "fslider2_": 0.0625
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 444.0290222167969,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.5833333333333334,
+                        "tone": 0.5203703703703704,
+                        "volume": 0.7277777777777777,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -6.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/mono-_6.lv2/_6.ttl"
+                }
+            }
+        },
+        {
+            "name": "Drive",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_EdgeDustCap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 0.0
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": ""
+                },
+                "_sd1sim_": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.7014510035514832,
+                        "LEVEL": -7.986607074737549,
+                        "TONE": 570.5914916992188
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -1.0714290142059326,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/MARSHALL JCM800 2210 100W/MARSHALL JCM800 2210 100W CH Lead.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl"
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Mesa Boogie Mark IV Clean [Hyper Accuracy]/KDM-Slammin_MKIV_07 Fendery Clean (Dry) S.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -8.335600907029473,
+                        "output_level": 2.0589569160997776,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_1-AC15_Edge.lv2/AC15_Edge.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.803570747375488,
+                        "fslider1_": 486.21651785714295,
+                        "fslider2_": 0.5518973214285715
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 444.0290222167969,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.5833333333333334,
+                        "tone": 0.5203703703703704,
+                        "volume": 0.7277777777777777,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -6.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/mono-_6.lv2/_6.ttl"
+                }
+            }
+        },
+        {
+            "name": "Dist",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_EdgeDustCap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 1.0
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": ""
+                },
+                "_sd1sim_": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.7014510035514832,
+                        "LEVEL": -7.986607074737549,
+                        "TONE": 570.5914916992188
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -1.0714290142059326,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/MARSHALL JCM800 2210 100W/MARSHALL JCM800 2210 100W CH Lead.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl"
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Mesa Boogie Mark IV Clean [Hyper Accuracy]/KDM-Slammin_MKIV_07 Fendery Clean (Dry) S.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -8.335600907029473,
+                        "output_level": 2.0589569160997776,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_1-AC15_Edge.lv2/AC15_Edge.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.803570747375488,
+                        "fslider1_": 486.21651785714295,
+                        "fslider2_": 0.5518973214285715
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 444.0290222167969,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.5833333333333334,
+                        "tone": 0.5203703703703704,
+                        "volume": 0.7277777777777777,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -6.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/mono-_6.lv2/_6.ttl"
+                }
+            }
+        },
+        {
+            "name": "Metal",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_EdgeDustCap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 1.0
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": ""
+                },
+                "_sd1sim_": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.7014510035514832,
+                        "LEVEL": -7.986607074737549,
+                        "TONE": 570.5914916992188
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -1.0714290142059326,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/MARSHALL JCM800 2210 100W/MARSHALL JCM800 2210 100W CH Lead.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl"
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Mesa Boogie Mark IV Clean [Hyper Accuracy]/KDM-Slammin_MKIV_07 Fendery Clean (Dry) S.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -8.335600907029473,
+                        "output_level": 2.0589569160997776,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_1-AC15_Edge.lv2/AC15_Edge.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.803570747375488,
+                        "fslider1_": 486.21651785714295,
+                        "fslider2_": 0.5518973214285715
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 444.0290222167969,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.5833333333333334,
+                        "tone": 0.5203703703703704,
+                        "volume": 0.7277777777777777,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -6.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/mono-_6.lv2/_6.ttl"
+                }
+            }
+        },
+        {
+            "name": "Clean2",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_EdgeDustCap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 0.0
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": ""
+                },
+                "_sd1sim_": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.7014510035514832,
+                        "LEVEL": -7.986607074737549,
+                        "TONE": 570.5914916992188
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -1.0714290142059326,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/MARSHALL JCM800 2210 100W/MARSHALL JCM800 2210 100W CH Lead.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl"
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Mesa Boogie Mark IV Clean [Hyper Accuracy]/KDM-Slammin_MKIV_07 Fendery Clean (Dry) S.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -8.335600907029473,
+                        "output_level": 2.0589569160997776,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_1-AC15_Edge.lv2/AC15_Edge.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.803570747375488,
+                        "fslider1_": 591.1830444335938,
+                        "fslider2_": 0.0625
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 444.0290222167969,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.5833333333333334,
+                        "tone": 0.5203703703703704,
+                        "volume": 0.7277777777777777,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -6.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/mono-_6.lv2/_6.ttl"
+                }
+            }
+        },
+        {
+            "name": "Drive2",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_EdgeDustCap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 0.0
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": ""
+                },
+                "_sd1sim_": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.7014510035514832,
+                        "LEVEL": -7.986607074737549,
+                        "TONE": 570.5914916992188
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -1.0714290142059326,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/MARSHALL JCM800 2210 100W/MARSHALL JCM800 2210 100W CH Lead.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl"
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Mesa Boogie Mark IV Clean [Hyper Accuracy]/KDM-Slammin_MKIV_07 Fendery Clean (Dry) S.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -8.335600907029473,
+                        "output_level": 2.0589569160997776,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_1-AC15_Edge.lv2/AC15_Edge.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.803570747375488,
+                        "fslider1_": 486.21651785714295,
+                        "fslider2_": 0.5518973214285715
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 444.0290222167969,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.5833333333333334,
+                        "tone": 0.5203703703703704,
+                        "volume": 0.7277777777777777,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -6.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/mono-_6.lv2/_6.ttl"
+                }
+            }
+        },
+        {
+            "name": "Dist2",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_EdgeDustCap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 1.0
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": ""
+                },
+                "_sd1sim_": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.7014510035514832,
+                        "LEVEL": -7.986607074737549,
+                        "TONE": 570.5914916992188
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -1.0714290142059326,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/MARSHALL JCM800 2210 100W/MARSHALL JCM800 2210 100W CH Lead.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 3.5,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl"
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Mesa Boogie Mark IV Clean [Hyper Accuracy]/KDM-Slammin_MKIV_07 Fendery Clean (Dry) S.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -8.335600907029473,
+                        "output_level": 2.0589569160997776,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_1-AC15_Edge.lv2/AC15_Edge.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.803570747375488,
+                        "fslider1_": 486.21651785714295,
+                        "fslider2_": 0.5518973214285715
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 444.0290222167969,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.5833333333333334,
+                        "tone": 0.5203703703703704,
+                        "volume": 0.7277777777777777,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -6.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/mono-_6.lv2/_6.ttl"
+                }
+            }
+        },
+        {
+            "name": "Metal2",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_MD421_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_EdgeDustCap.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/CabinetLoader_1-Engl_M160_R.lv2/Engl_M160_R.ttl"
+                },
+                "SwitchBox2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Switch": 1.0
+                    },
+                    "preset": ""
+                },
+                "ZamAutoSat_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": ""
+                },
+                "_sd1sim_": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "DRIVE": 0.7014510035514832,
+                        "LEVEL": -7.986607074737549,
+                        "TONE": 570.5914916992188
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/var/modep/user-files/Audio Recordings/test.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 0.0
+                    },
+                    "preset": ""
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Background.lv2/Background.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -1.0714290142059326,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/MARSHALL JCM800 2210 100W/MARSHALL JCM800 2210 100W CH Lead.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 3.5,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2-JCM800_Crunch.lv2/JCM800_Crunch.ttl"
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Mesa Boogie Mark IV Clean [Hyper Accuracy]/KDM-Slammin_MKIV_07 Fendery Clean (Dry) S.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -8.335600907029473,
+                        "output_level": 2.0589569160997776,
+                        "buffered": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_1-AC15_Edge.lv2/AC15_Edge.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": ""
+                },
+                "ts9sim": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.803570747375488,
+                        "fslider1_": 486.21651785714295,
+                        "fslider2_": 0.5518973214285715
+                    },
+                    "preset": "file:///var/modep/lv2-presets/ts9sim-test.lv2/test.ttl"
+                },
+                "ts9sim_1": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -10.598214149475098,
+                        "fslider1_": 444.0290222167969,
+                        "fslider2_": 1.0
+                    },
+                    "preset": ""
+                },
+                "Schrammel_OJD": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.5833333333333334,
+                        "tone": 0.5203703703703704,
+                        "volume": 0.7277777777777777,
+                        "hp_lp": 1.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -6.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/mono-_6.lv2/_6.ttl"
+                }
+            }
+        }
+    ]
+}
