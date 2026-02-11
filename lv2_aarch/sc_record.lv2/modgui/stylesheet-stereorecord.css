@@ -1,0 +1,313 @@
+/* SKINS */
+.sc_record_stereo{{{cns}}} {
+    background-image: url(/resources/heads/model-001/RecordStereo_Background.webp{{{ns}}});
+    background-size: 345px 237px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: Helvetica,Arial,Sans-serif;
+    height: 237px;
+    position: relative;
+    width: 345px;
+    border-radius: 20px;
+}
+
+/* PORTS
+================================================ */
+
+.sc_record_stereo{{{cns}}} .mod-pedal-input {
+    top: 86px;
+}
+
+/* THE AUTHOR */
+.sc_record_stereo{{{cns}}} .mod-plugin-brand h1 {
+    bottom: 90px;
+    color: #fff;
+    font-size: 14px;
+    left: 54px;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+}
+
+/* PLUGIN'S NAME */
+.sc_record_stereo{{{cns}}} .mod-plugin-name h1 {
+    bottom: 50px;
+    color: #fff;
+    font-size: 18px;
+    left: 54px;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+}
+
+@keyframes sprite_st {
+    to { background-position: -4608px }
+}
+
+@keyframes sprite2 {
+    to { background-position: -10488px }
+}
+
+.sc_record_stereo{{{cns}}} .tape {
+    height: 216px;
+    width: 192px;
+    position: relative;
+    display: inline-block;
+    background: url(/resources/heads/model-001/Stereo_TurningTape_Red.webp{{{ns}}});
+    animation: sprite_st 1.0s steps(24) infinite;
+    animation-play-state: paused;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+
+    will-change: transform;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transform: translate(-11%, -11.5%) scale(0.75);
+}
+
+.sc_record_stereo{{{cns}}} .tape2 {
+    height: 437px;
+    width: 437px;
+    display: inline-block;
+    position: relative;
+    background: url(/resources/heads/model-001/TurningTape_White.webp{{{ns}}});
+    animation: sprite2 1.5s steps(24) infinite;
+    animation-play-state: paused;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+
+    will-change: transform;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transform: translate(+10.5%, -81.5%) scale(0.38);
+}
+
+/* CONTROLS */
+.sc_record_stereo{{{cns}}} .mod-control-group {
+    bottom: 149px;
+    color: #fff;
+    font-size: 10px;
+    height: 73px;
+    left: 100px;
+    position: absolute;
+    right: 14px;
+    top: 120px;
+}
+
+.sc_record_stereo{{{cns}}} .mod-control-group > div {
+    margin-right: 2px;
+}
+
+/* SWITCH ON/OFF GENERAL */
+.sc_record_stereo{{{cns}}} .mod-switch {
+    cursor: pointer;
+    float: left;
+    height: 128px;
+    position: relative;
+    margin-left: 2px;
+    width: 135px;
+}
+
+.sc_record_stereo{{{cns}}} .mod-switch-image {
+    background-image: url(/resources/switches/Record_button.webp{{{ns}}});
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: auto 128px;
+    height: 128px;
+    width: 135px;
+    z-index: 4;
+}
+
+.sc_record_stereo{{{cns}}} .mod-switch-image.on {
+    background-position: -135px 0px !important;
+}
+
+.sc_record_stereo{{{cns}}} .mod-switch-image.off {
+    background-position: left 0px !important;
+}
+
+.sc_record_stereo{{{cns}}} .mod-led {
+    float: left;
+    height: 64px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -55px;
+    text-align: center;
+    width: 64px;
+}
+
+.sc_record_stereo{{{cns}}} .mod-led .mod-led-image {
+    background-image: url(/resources/switches/LED.webp{{{ns}}});
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: auto 64px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 0px;
+    height: 64px;
+    width: 64px;
+    z-index: 3;
+}
+
+.sc_record_stereo{{{cns}}} .mod-led .mod-led-title {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    z-index: 1;
+}
+
+.sc_record_stereo{{{cns}}} .mod-meter {
+    float: left;
+    height: 123px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    margin-left: 59px;
+    margin-top: -90px;
+    width: 22px;
+}
+
+.sc_record_stereo{{{cns}}} .mod-meter .mod-meter-image {
+    background-image:url(/resources/knobs/Record_meter.png{{{ns}}});
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: auto 124px;
+    height: 124px;
+    width: 10px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px 0px #000 inset, -1px -1px 1px 1px #888 inset;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+
+    will-change: transform;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.sc_record_stereo{{{cns}}} .mod-meter .mod-meter-image-right {
+    background-image:url(/resources/knobs/Record_meter.png{{{ns}}});
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: auto 124px;
+    height: 124px;
+    width: 10px;
+    margin-top: 0px;
+    margin-left: 11px;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px 0px #000 inset, -1px -1px 1px 1px #888 inset;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+
+    will-change: transform;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* ENUMERATED LIST */
+.sc_record_stereo{{{cns}}} .mod-enumerated {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    display: inline-block;
+    margin-top: -121px;
+    overflow: hidden;
+    position: absolute;
+    left: 45px;
+    top: -11px;
+    width: 80px;
+}
+
+.sc_record_stereo{{{cns}}} .mod-enumerated .mod-enumerated-selected {
+    font-weight: bold;
+    font-size: 19px;
+    height: 38px;
+    line-height: 2.5;
+    margin-right: 8px;
+    overflow: hidden;
+    padding: 0 9px;
+}
+
+/* WHEN IS HOVER */
+.sc_record_stereo{{{cns}}} .mod-enumerated:hover .mod-enumerated-selected {
+    border-radius: 4px 4px 0 0;
+}
+
+/* THE LIST OF OPTIONS */
+.sc_record_stereo{{{cns}}} .mod-enumerated .mod-enumerated-list {
+    background: rgba(255,255,255,.85);
+    border-radius: 4px;
+    box-shadow:inset 1px 1px 10px #000;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    height: 54px;
+    overflow: auto;
+    position: relative;
+    width: 80px;
+    z-index: 5;
+}
+
+.sc_record_stereo{{{cns}}} .mod-enumerated .mod-enumerated-list > div {
+    padding: 3px 9px;
+}
+
+.sc_record_stereo{{{cns}}} .mod-enumerated .mod-enumerated-list > div:hover {
+    background: rgba(0,0,0,.35);
+    cursor: pointer;
+}
+
+/* SEPARATOR */
+.sc_record_stereo{{{cns}}} .mod-separator {
+    background: #000;
+    display: inline-block;
+    float: left;
+    height: 69px;
+    margin-top: 2px;
+    width: 1px;
+}

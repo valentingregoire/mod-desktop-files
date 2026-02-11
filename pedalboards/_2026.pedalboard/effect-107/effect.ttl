@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
 	state:state [
-		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <KDM-Slammin_MKIV_07%20Fendery%20Clean%20(Dry)%20S.nam>
+		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <01-vox_ac30_tb_hg_CLEAN.nam>
 	] .
 
