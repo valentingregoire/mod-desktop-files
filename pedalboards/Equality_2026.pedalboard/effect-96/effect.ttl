@@ -8,8 +8,5 @@
 
 <>
 	a pset:Preset ;
-	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
-	state:state [
-		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <MARSHALL%20JCM800%202210%20100W%20CH%20Lead.nam>
-	] .
+	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> .
 

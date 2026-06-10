@@ -16,16 +16,15 @@
 
 <http://github.com/mikeoliphant/neural-amp-modeler-lv2#model>
 	a lv2:Parameter;
-	mod:fileTypes "nammodel";
+	mod:fileTypes "nam,nammodel,json,aidax,aidadspmodel";
 	rdfs:label "Neural Model";
 	rdfs:range atom:Path.
 
 <http://github.com/mikeoliphant/neural-amp-modeler-lv2>
 	a lv2:Plugin, lv2:SimulatorPlugin, doap:Project;
 	doap:name "Neural Amp Modeler";
-	mod:label "Neural Amp Modeler";
 	lv2:project <http://github.com/mikeoliphant/neural-amp-modeler-lv2>;
-	lv2:minorVersion 1;
+	lv2:minorVersion 2;
 	lv2:microVersion 0;
 	doap:license <http://opensource.org/licenses/gpl-3-0>;
 
@@ -40,15 +39,13 @@
 	opts:supportedOption <http://lv2plug.in/ns/ext/buf-size#maxBlockLength>;
 
 	rdfs:comment """
-The Neural Amp Modeler (NAM) is an open-source guitar software plugin that creates realistic simulations of analog gear, especially guitar amplifiers.
-The plugin utilizes neural amp modeling technology, which employs neural networks and machine learning algorithms to replicate the behavior and characteristics of real amplifiers.
+LV2 plugin for neural network machine learning guitar amplifier simulation models
 
-NAM loads *.nam files, enabling users to access a vast collection of meticulously crafted amp and pedal models.
+Models supported:
+  Neural Amp Modeler (NAM): https://github.com/sdatkinson/neural-amp-modeler
+  RTNeural keras/Aida-x models: https://github.com/jatinchowdhury18/RTNeural
 
-You can discover a wide range of authentic tones, from vintage classics to modern designs at https://tonehunt.org/?tags=nano-mdl with their extensive library of nam models.
-For MOD units search for the models with the #nano-mdl tag, as heavier models might not work.
-
-NAM was created by Steven Ack and the LV2 version is maintained by Mike Oliphant.
+A large collection of models is available at https://tonehunt.org
 """;
 
 	patch:writable <http://github.com/mikeoliphant/neural-amp-modeler-lv2#model>;
@@ -107,10 +104,9 @@ NAM was created by Steven Ack and the LV2 version is maintained by Mike Oliphant
 	], [
 		a lv2:ControlPort, lv2:InputPort;
 		lv2:index 6;
-		lv2:symbol "buffered";
-		lv2:name "Buffered";
-		lv2:default 0;
-		lv2:minimum 0;
-		lv2:maximum 1;
-		lv2:portProperty lv2:integer, lv2:toggled;
+		lv2:symbol "quality_scale";
+		lv2:name "Quality";
+		lv2:default 1.0;
+		lv2:minimum 0.0;
+		lv2:maximum 1.0;
 	].
