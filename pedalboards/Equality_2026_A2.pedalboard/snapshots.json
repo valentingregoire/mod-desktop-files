@@ -70,9 +70,9 @@
                     "bypassed": true,
                     "parameters": {},
                     "ports": {
-                        "fslider0_": -11.0,
-                        "fslider1_": 400.0,
-                        "fslider2_": 0.5
+                        "fslider0_": -13.15625,
+                        "fslider1_": 589.1741071428571,
+                        "fslider2_": 0.5837053571428573
                     },
                     "preset": ""
                 },
@@ -239,6 +239,29 @@
                         "Step": -1.0,
                         "Gain": 3.0,
                         "Fidelity": 1.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 3.370535714285701,
+                        "enable": 0.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.3281250000000001,
+                        "GATE": -55.0,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.5574776785714286,
+                        "LEVEL": -10.879464285714285
                     },
                     "preset": ""
                 }

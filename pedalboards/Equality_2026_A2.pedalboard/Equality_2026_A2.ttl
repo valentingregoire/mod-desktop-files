@@ -8,84 +8,206 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <neural_amp_modeler_lv2_1/output> ;
-    ingen:head <_chorus_stereo/in> .
+    ingen:tail <Drop/Out> ;
+    ingen:head <ts9sim/in> .
 
 _:b2
-    ingen:tail <neural_amp_modeler_lv2_2/output> ;
-    ingen:head <_chorus_stereo/in> .
+    ingen:tail <neural_amp_modeler_lv2_3/output> ;
+    ingen:head <mono/in> .
 
 _:b3
-    ingen:tail <_chorus_stereo/out1> ;
-    ingen:head <bolliedelayxt/IP_INPUT_CH2> .
-
-_:b4
-    ingen:tail <_chorus_stereo/out> ;
-    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
-
-_:b5
-    ingen:tail <pocketverbs/outL> ;
-    ingen:head <playback_1> .
-
-_:b6
     ingen:tail <bolliedelayxt/OP_OUTPUT_CH2> ;
     ingen:head <pocketverbs/inR> .
 
-_:b7
-    ingen:tail <bolliedelayxt/OP_OUTPUT_CH1> ;
-    ingen:head <pocketverbs/inL> .
+_:b4
+    ingen:tail <neural_amp_modeler_lv2/output> ;
+    ingen:head <mono/in> .
 
-_:b8
-    ingen:tail <pocketverbs/outR> ;
-    ingen:head <playback_1> .
-
-_:b9
+_:b5
     ingen:tail <capture_1> ;
     ingen:head <mod/in> .
 
-_:b10
-    ingen:tail <SwitchTrigger4/Out3> ;
-    ingen:head <neural_amp_modeler_lv2_2/input> .
+_:b6
+    ingen:tail <_chorus_stereo/out> ;
+    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
 
-_:b11
-    ingen:tail <SwitchTrigger4/Out1> ;
-    ingen:head <neural_amp_modeler_lv2/input> .
+_:b7
+    ingen:tail <neural_amp_modeler_lv2_1/output> ;
+    ingen:head <mono/in> .
 
-_:b12
-    ingen:tail <neural_amp_modeler_lv2_3/output> ;
+_:b8
+    ingen:tail <_chorus_stereo/out1> ;
+    ingen:head <bolliedelayxt/IP_INPUT_CH2> .
+
+_:b9
+    ingen:tail <mono/out> ;
     ingen:head <_chorus_stereo/in> .
 
-_:b13
+_:b10
+    ingen:tail <pocketverbs/outL> ;
+    ingen:head <playback_1> .
+
+_:b11
     ingen:tail <SwitchTrigger4/Out4> ;
     ingen:head <neural_amp_modeler_lv2_3/input> .
 
-_:b14
-    ingen:tail <neural_amp_modeler_lv2/output> ;
-    ingen:head <_chorus_stereo/in> .
-
-_:b15
-    ingen:tail <mod/out> ;
-    ingen:head <Drop/In> .
-
-_:b16
-    ingen:tail <Drop/Out> ;
-    ingen:head <Schrammel_OJD/lv2_audio_in> .
-
-_:b17
+_:b12
     ingen:tail <Schrammel_OJD/lv2_audio_out> ;
     ingen:head <SwitchTrigger4/In> .
 
+_:b13
+    ingen:tail <SwitchTrigger4/Out1> ;
+    ingen:head <neural_amp_modeler_lv2/input> .
+
+_:b14
+    ingen:tail <mod/out> ;
+    ingen:head <Drop/In> .
+
+_:b15
+    ingen:tail <neural_amp_modeler_lv2_2/output> ;
+    ingen:head <mono/in> .
+
+_:b16
+    ingen:tail <ts9sim/out> ;
+    ingen:head <Schrammel_OJD/lv2_audio_in> .
+
+_:b17
+    ingen:tail <pocketverbs/outR> ;
+    ingen:head <playback_1> .
+
 _:b18
-    ingen:tail <SwitchTrigger4/Out2> ;
-    ingen:head <ts9sim/in> .
+    ingen:tail <bolliedelayxt/OP_OUTPUT_CH1> ;
+    ingen:head <pocketverbs/inL> .
 
 _:b19
-    ingen:tail <ts9sim/out> ;
+    ingen:tail <CollisionDrive/out> ;
     ingen:head <neural_amp_modeler_lv2_1/input> .
 
+_:b20
+    ingen:tail <SwitchTrigger4/Out2> ;
+    ingen:head <neural_amp_modeler_lv2_1/input> .
+
+_:b21
+    ingen:tail <SwitchTrigger4/Out3> ;
+    ingen:head <CollisionDrive/in> .
+
+<Drop>
+    ingen:canvasX 619.0 ;
+    ingen:canvasY 741.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <Drop/In> ,
+             <Drop/Out> ,
+             <Drop/Step> ,
+             <Drop/Gain> ,
+             <Drop/Fidelity> ,
+             <Drop/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/Drop> ;
+    pedal:instanceNumber 24 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Drop/In>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Drop/In>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Drop/Step>
+    ingen:value -1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Drop/Gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Drop/Fidelity>
+    ingen:value 2.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Drop/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Schrammel_OJD>
+    ingen:canvasX 1299.0 ;
+    ingen:canvasY 730.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 9 ;
+    lv2:minorVersion 8 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <Schrammel_OJD/lv2_audio_in> ,
+             <Schrammel_OJD/lv2_audio_out> ,
+             <Schrammel_OJD/lv2_freewheel> ,
+             <Schrammel_OJD/drive> ,
+             <Schrammel_OJD/tone> ,
+             <Schrammel_OJD/volume> ,
+             <Schrammel_OJD/hp_lp> ,
+             <Schrammel_OJD/lv2_enabled> ,
+             <Schrammel_OJD/:bypass> ;
+    lv2:prototype <https://github.com/JanosGit/Schrammel_OJD> ;
+    pedal:instanceNumber 4 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Schrammel_OJD/lv2_audio_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Schrammel_OJD/lv2_audio_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Schrammel_OJD/lv2_freewheel>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Schrammel_OJD/drive>
+    ingen:value 0.426339 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Schrammel_OJD/tone>
+    ingen:value 0.229630 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Schrammel_OJD/volume>
+    ingen:value 0.840741 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Schrammel_OJD/hp_lp>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Schrammel_OJD/lv2_enabled>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Schrammel_OJD/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <SwitchTrigger4>
-    ingen:canvasX 1384.6 ;
-    ingen:canvasY 696.9 ;
+    ingen:canvasX 1712.0 ;
+    ingen:canvasY 664.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -142,7 +264,7 @@ _:b19
 
 <_chorus_stereo>
     ingen:canvasX 2830.0 ;
-    ingen:canvasY 816.5 ;
+    ingen:canvasY 816.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 3 ;
@@ -206,7 +328,7 @@ _:b19
 
 <bolliedelayxt>
     ingen:canvasX 3284.0 ;
-    ingen:canvasY 816.5 ;
+    ingen:canvasY 816.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 1 ;
@@ -419,7 +541,7 @@ _:b19
 
 <mod>
     ingen:canvasX 41.0 ;
-    ingen:canvasY 752.5 ;
+    ingen:canvasY 752.0 ;
     ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -536,9 +658,62 @@ _:b19
     a lv2:ControlPort ,
         lv2:InputPort .
 
+<mono>
+    ingen:canvasX 2621.1 ;
+    ingen:canvasY 863.4 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono/in> ,
+             <mono/out> ,
+             <mono/gain> ,
+             <mono/enable> ,
+             <mono/mute> ,
+             <mono/level> ,
+             <mono/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 26 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono/gain>
+    ingen:value 3.370536 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/enable>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
 <neural_amp_modeler_lv2>
     ingen:canvasX 2223.0 ;
-    ingen:canvasY 58.5 ;
+    ingen:canvasY 58.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -565,7 +740,7 @@ _:b19
         lv2:OutputPort .
 
 <neural_amp_modeler_lv2/input_level>
-    ingen:value -10.000000 ;
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -586,7 +761,7 @@ _:b19
 
 <neural_amp_modeler_lv2_1>
     ingen:canvasX 2235.0 ;
-    ingen:canvasY 553.5 ;
+    ingen:canvasY 553.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -613,12 +788,12 @@ _:b19
         lv2:OutputPort .
 
 <neural_amp_modeler_lv2_1/input_level>
-    ingen:value -10.000000 ;
+    ingen:value 0.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <neural_amp_modeler_lv2_1/output_level>
-    ingen:value 0.000000 ;
+    ingen:value -2.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -634,7 +809,7 @@ _:b19
 
 <neural_amp_modeler_lv2_2>
     ingen:canvasX 2231.0 ;
-    ingen:canvasY 1025.5 ;
+    ingen:canvasY 1025.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -682,7 +857,7 @@ _:b19
 
 <neural_amp_modeler_lv2_3>
     ingen:canvasX 2231.0 ;
-    ingen:canvasY 1507.5 ;
+    ingen:canvasY 1507.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -730,7 +905,7 @@ _:b19
 
 <pocketverbs>
     ingen:canvasX 4164.0 ;
-    ingen:canvasY 816.5 ;
+    ingen:canvasY 816.0 ;
     ingen:enabled true ;
     ingen:polyphonic false ;
     lv2:microVersion 0 ;
@@ -793,9 +968,9 @@ _:b19
         lv2:InputPort .
 
 <ts9sim>
-    ingen:canvasX 1867.3 ;
-    ingen:canvasY 648.4 ;
-    ingen:enabled true ;
+    ingen:canvasX 936.0 ;
+    ingen:canvasY 722.0 ;
+    ingen:enabled false ;
     ingen:polyphonic false ;
     lv2:microVersion 3 ;
     lv2:minorVersion 28 ;
@@ -821,136 +996,93 @@ _:b19
         lv2:OutputPort .
 
 <ts9sim/fslider0_>
-    ingen:value -11.080357 ;
+    ingen:value -10.544643 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <ts9sim/fslider1_>
-    ingen:value 637.890625 ;
+    ingen:value 470.647308 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <ts9sim/fslider2_>
-    ingen:value 0.489955 ;
+    ingen:value 0.334821 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
 <ts9sim/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Schrammel_OJD>
-    ingen:canvasX 953.8 ;
-    ingen:canvasY 738.1 ;
-    ingen:enabled false ;
-    ingen:polyphonic false ;
-    lv2:microVersion 9 ;
-    lv2:minorVersion 8 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <Schrammel_OJD/lv2_audio_in> ,
-             <Schrammel_OJD/lv2_audio_out> ,
-             <Schrammel_OJD/lv2_freewheel> ,
-             <Schrammel_OJD/drive> ,
-             <Schrammel_OJD/tone> ,
-             <Schrammel_OJD/volume> ,
-             <Schrammel_OJD/hp_lp> ,
-             <Schrammel_OJD/lv2_enabled> ,
-             <Schrammel_OJD/:bypass> ;
-    lv2:prototype <https://github.com/JanosGit/Schrammel_OJD> ;
-    pedal:instanceNumber 4 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<Schrammel_OJD/lv2_audio_in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<Schrammel_OJD/lv2_audio_in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<Schrammel_OJD/lv2_freewheel>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Schrammel_OJD/drive>
-    ingen:value 0.426339 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Schrammel_OJD/tone>
-    ingen:value 0.638393 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Schrammel_OJD/volume>
-    ingen:value 0.558594 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Schrammel_OJD/hp_lp>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Schrammel_OJD/lv2_enabled>
-    ingen:value 0.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Schrammel_OJD/:bypass>
     ingen:value 1 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Drop>
-    ingen:canvasX 619.0 ;
-    ingen:canvasY 741.6 ;
-    ingen:enabled false ;
+<CollisionDrive>
+    ingen:canvasX 1605.1 ;
+    ingen:canvasY 1419.8 ;
+    ingen:enabled true ;
     ingen:polyphonic false ;
-    lv2:microVersion 2 ;
-    lv2:minorVersion 0 ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 1 ;
     mod:builderVersion 0 ;
     mod:releaseNumber 0 ;
-    lv2:port <Drop/In> ,
-             <Drop/Out> ,
-             <Drop/Step> ,
-             <Drop/Gain> ,
-             <Drop/Fidelity> ,
-             <Drop/:bypass> ;
-    lv2:prototype <http://moddevices.com/plugins/mod-devel/Drop> ;
-    pedal:instanceNumber 24 ;
+    lv2:port <CollisionDrive/in> ,
+             <CollisionDrive/out> ,
+             <CollisionDrive/BYPASS> ,
+             <CollisionDrive/BRIGHT> ,
+             <CollisionDrive/GATE> ,
+             <CollisionDrive/ATTACK> ,
+             <CollisionDrive/DRIVE> ,
+             <CollisionDrive/LEVEL> ,
+             <CollisionDrive/V1> ,
+             <CollisionDrive/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/CollisionDrive> ;
+    pedal:instanceNumber 35 ;
     pedal:preset <> ;
     a ingen:Block .
 
-<Drop/In>
+<CollisionDrive/in>
     a lv2:AudioPort ,
         lv2:InputPort .
 
-<Drop/In>
+<CollisionDrive/in>
     a lv2:AudioPort ,
         lv2:OutputPort .
 
-<Drop/Step>
-    ingen:value -1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop/Gain>
-    ingen:value 3.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<Drop/Fidelity>
+<CollisionDrive/BYPASS>
     ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<Drop/:bypass>
-    ingen:value 1 ;
+<CollisionDrive/BRIGHT>
+    ingen:value 0.328125 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive/GATE>
+    ingen:value -55.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive/ATTACK>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive/DRIVE>
+    ingen:value 0.557478 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive/LEVEL>
+    ingen:value -10.879464 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive/V1>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<CollisionDrive/:bypass>
+    ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -1040,12 +1172,12 @@ _:b19
     doap:name "Equality 2026 A2" ;
     pedal:unitName "Unknown" ;
     pedal:unitModel "None" ;
-    pedal:width 2776 ;
-    pedal:height 1390 ;
+    pedal:width 5016 ;
+    pedal:height 2470 ;
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 4 ;
+    pedal:version 14 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -1065,19 +1197,23 @@ _:b19
               _:b16 ,
               _:b17 ,
               _:b18 ,
-              _:b19 ;
-    ingen:block <SwitchTrigger4> ,
+              _:b19 ,
+              _:b20 ,
+              _:b21 ;
+    ingen:block <Drop> ,
+                <Schrammel_OJD> ,
+                <SwitchTrigger4> ,
                 <_chorus_stereo> ,
                 <bolliedelayxt> ,
                 <mod> ,
+                <mono> ,
                 <neural_amp_modeler_lv2> ,
                 <neural_amp_modeler_lv2_1> ,
                 <neural_amp_modeler_lv2_2> ,
                 <neural_amp_modeler_lv2_3> ,
                 <pocketverbs> ,
                 <ts9sim> ,
-                <Schrammel_OJD> ,
-                <Drop> ;
+                <CollisionDrive> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
