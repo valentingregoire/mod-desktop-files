@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
 	state:state [
-		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <MESRecto_MidGain3_Cab1_FullRig.nam>
+		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Bogren%20BDHIII%20no%20pedal.nam>
 	] .
 

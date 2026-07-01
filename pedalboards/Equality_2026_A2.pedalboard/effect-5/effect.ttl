@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
 	state:state [
-		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Morgan%20Ac30%20Clean.nam>
+		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Fender%20Showman%201964.nam>
 	] .
 

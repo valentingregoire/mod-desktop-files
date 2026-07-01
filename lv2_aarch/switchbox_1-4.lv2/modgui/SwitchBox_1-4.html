@@ -1,0 +1,38 @@
+<div class="mod-pedal switchbox_1-4">
+  <div mod-role="drag-handle" class="mod-drag-handle"></div>
+  <div class="mod-plugin-name"><h1>Switch Box 1-4</h1></div>
+  <div class="mod-control-group">
+    <div class="mod-control">
+      <div
+        class="knob"
+        mod-role="input-control-port"
+        mod-port-symbol="active_channel"
+      ></div>
+      <div class="mod-control-title">Channel</div>
+    </div>
+  </div>
+  <div class="mod-pedal-input">
+    {{#effect.ports.audio.input}}
+    <div
+      class="mod-input mod-input-disconnected switchbox_1-4-input"
+      title="{{name}}"
+      mod-role="input-audio-port"
+      mod-port-symbol="{{symbol}}"
+    >
+      <div class="mod-pedal-input-image"></div>
+    </div>
+    {{/effect.ports.audio.input}}
+  </div>
+  <div class="mod-pedal-output">
+    {{#effect.ports.audio.output}}
+    <div
+      class="mod-output mod-output-disconnected switchbox_1-4-output"
+      title="{{name}}"
+      mod-role="output-audio-port"
+      mod-port-symbol="{{symbol}}"
+    >
+      <div class="mod-pedal-output-image"></div>
+    </div>
+    {{/effect.ports.audio.output}}
+  </div>
+</div>

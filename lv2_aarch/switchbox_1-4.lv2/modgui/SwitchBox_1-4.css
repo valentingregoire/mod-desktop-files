@@ -1,0 +1,58 @@
+.switchbox_1-4 {
+  background: url(/resources/bg-SwitchBox_1-4.png{{{ns}}});
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 453px;
+  height: 471px;
+  border-radius: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.switchbox_1-4 .mod-pedal-input {
+  top: 226px;
+}
+.switchbox_1-4 .mod-pedal-output {
+  top: 20px;
+}
+.switchbox_1-4 .mod-output {
+  margin-top: 38px;
+}
+.switchbox_1-4 .mod-plugin-name {
+  margin-bottom: auto;
+  text-align: center;
+  top: 20px;
+}
+.switchbox_1-4 .mod-plugin-name h1 {
+  color: white;
+  font-size: 18px;
+  text-shadow: 0 0 1px black;
+}
+.switchbox_1-4 .mod-control-group {
+  margin-top: -20px;
+  margin-bottom: auto;
+}
+.switchbox_1-4 .mod-control-group .mod-control {
+  display: block;
+  text-align: center;
+}
+.switchbox_1-4 .mod-control-group .mod-control .mod-control-title {
+  margin-top: 20px;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  text-shadow: 0 0 1px black;
+  text-transform: uppercase;
+}
+.switchbox_1-4 .knob {
+  background-image: url(/resources/knob.png{{{ns}}});
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto 250px;
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
+  align-self: center;
+}
