@@ -8,8 +8,8 @@
 
 <>
 	a pset:Preset ;
-	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
+	lv2:appliesTo <https://mod.audio/plugins/CabinetLoader> ;
 	state:state [
-		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Victory%20-%20The%20Deputy%20Voice%201%20G%2011%20TMB%2012%20Master%2010.nam>
+		<https://mod.audio/plugins/CabinetLoader#irfile> <file:///var/modep/user-files/Speaker%20Cabinets%20IRs/Celestion%20G12-65%20Heritage%20UK%20made/g12-65%20cc8.wav>
 	] .
 

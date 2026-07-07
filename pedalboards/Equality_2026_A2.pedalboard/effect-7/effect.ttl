@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
 	state:state [
-		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Tone%20King%20Imperial%20Rhythm%20Drive,%20Volume%208,%20Treble%205,%20%20Bass%204,%201x12%20Fender.nam>
+		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Victory%20MKX%20Gain%202.nam>
 	] .
 

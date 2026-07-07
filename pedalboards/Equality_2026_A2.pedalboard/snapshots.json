@@ -1,19 +1,34 @@
 {
-    "current": 0,
+    "current": 1,
     "snapshots": [
         {
             "name": "Clean",
             "data": {
-                "CollisionDrive": {
+                "CabinetLoader": {
                     "bypassed": false,
-                    "parameters": {},
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
                     "ports": {
-                        "BYPASS": 1.0,
-                        "BRIGHT": 0.1992190033197403,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.19029000401496887,
-                        "LEVEL": -10.0
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
                     },
                     "preset": ""
                 },
@@ -26,126 +41,6 @@
                         "Fidelity": 2.0
                     },
                     "preset": ""
-                },
-                "_chorus_stereo": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "level": 0.46316999197006226,
-                        "delay": 0.021316999569535255,
-                        "depth": 0.09319200366735458,
-                        "freq": 1.2435829639434814
-                    },
-                    "preset": "file:///var/modep/lv2-presets/_chorus_stereo-Subtle_Chorus-65862.lv2/Subtle_Chorus.ttl"
-                },
-                "bolliedelayxt": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "CP_ENABLED": 1.0,
-                        "CP_TRAILS": 0.0,
-                        "CP_TEMPO_MODE": 0.0,
-                        "CP_PING_PONG": 0.0,
-                        "CP_TEMPO_HOST": 120.0,
-                        "CP_TEMPO_USER": 120.0,
-                        "CP_TEMPO_DIV_CH1": 3.0,
-                        "CP_TEMPO_DIV_CH2": 3.0,
-                        "CP_FB": 3.09375,
-                        "CP_CF": 0.0,
-                        "CP_GAIN_DRY": 0.0,
-                        "CP_GAIN_WET": -23.70479965209961,
-                        "CP_MOD_ON": 0.0,
-                        "CP_MOD_PHASE": 0.0,
-                        "CP_MOD_DEPTH": 2.0,
-                        "CP_MOD_RATE": 0.10000000149011612,
-                        "CP_HCF_PRE_ON": 0.0,
-                        "CP_HCF_PRE_FREQ": 7500.0,
-                        "CP_HCF_PRE_Q": 0.7070000171661377,
-                        "CP_LCF_PRE_ON": 0.0,
-                        "CP_LCF_PRE_FREQ": 20.0,
-                        "CP_LCF_PRE_Q": 0.7070000171661377,
-                        "CP_HCF_FB_ON": 0.0,
-                        "CP_HCF_FB_FREQ": 7500.0,
-                        "CP_HCF_FB_Q": 0.7070000171661377,
-                        "CP_LCF_FB_ON": 0.0,
-                        "CP_LCF_FB_FREQ": 20.0,
-                        "CP_LCF_FB_Q": 0.7070000171661377
-                    },
-                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Subtle_Delay.lv2/Subtle_Delay.ttl"
-                },
-                "modmeter": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "reset": 1.0
-                    },
-                    "preset": ""
-                },
-                "mono": {
-                    "bypassed": true,
-                    "parameters": {},
-                    "ports": {
-                        "gain": 3.3705360889434814,
-                        "enable": 0.0,
-                        "mute": 0.0
-                    },
-                    "preset": ""
-                },
-                "neural_amp_modeler_lv2": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Fender Showman 1964.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": 0.0,
-                        "output_level": -5.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "neural_amp_modeler_lv2_1": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Tone King Imperial Rhythm Drive, Volume 8, Treble 5,  Bass 4, 1x12 Fender.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": 0.0,
-                        "output_level": 0.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "neural_amp_modeler_lv2_2": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Bogren BDHIII no pedal.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": 0.0,
-                        "output_level": 0.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "pocketverbs": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "type": 0.0,
-                        "size": 0.10267899930477142,
-                        "gating": 0.0,
-                        "drywet": 0.07366099953651428
-                    },
-                    "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
                 },
                 "SwitchBox_1_4_lv2": {
                     "bypassed": false,
@@ -162,34 +57,6 @@
                         "active_channel": 2.0
                     },
                     "preset": ""
-                }
-            }
-        },
-        {
-            "name": "Drive",
-            "data": {
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BRIGHT": 0.2985491071428571,
-                        "GATE": -69.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.19029000401496887,
-                        "LEVEL": -10.0
-                    },
-                    "preset": ""
-                },
-                "Drop": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Step": -1.0,
-                        "Gain": 0.0,
-                        "Fidelity": 2.0
-                    },
-                    "preset": ""
                 },
                 "_chorus_stereo": {
                     "bypassed": false,
@@ -245,6 +112,22 @@
                     },
                     "preset": ""
                 },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
                 "mono": {
                     "bypassed": true,
                     "parameters": {},
@@ -259,13 +142,13 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Deluxe Reverb.nam",
+                            "/var/modep/user-files/NAM Models/Victory The Deputy DI/Victory - The Deputy Voice 1 G 11 TMB 12 Master 10.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": -5.0,
-                        "output_level": -5.0,
+                        "input_level": 0.0,
+                        "output_level": 0.0,
                         "quality_scale": 1.0
                     },
                     "preset": ""
@@ -274,12 +157,12 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Tone King Imperial Rhythm Drive, Volume 8, Treble 5,  Bass 4, 1x12 Fender.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": 7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
@@ -289,16 +172,16 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Bogren BDHIII no pedal.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": -7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
-                    "preset": ""
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_2-Vic_Drive.lv2/Vic_Drive.ttl"
                 },
                 "pocketverbs": {
                     "bypassed": false,
@@ -310,6 +193,49 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                }
+            }
+        },
+        {
+            "name": "Drive",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "Drop": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Step": -1.0,
+                        "Gain": 0.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": ""
                 },
                 "SwitchBox_1_4_lv2": {
                     "bypassed": false,
@@ -326,34 +252,6 @@
                         "active_channel": 2.0
                     },
                     "preset": ""
-                }
-            }
-        },
-        {
-            "name": "Distortion",
-            "data": {
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BRIGHT": 0.1992190033197403,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.19029000401496887,
-                        "LEVEL": -10.0
-                    },
-                    "preset": ""
-                },
-                "Drop": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Step": -1.0,
-                        "Gain": 0.0,
-                        "Fidelity": 2.0
-                    },
-                    "preset": ""
                 },
                 "_chorus_stereo": {
                     "bypassed": false,
@@ -409,6 +307,22 @@
                     },
                     "preset": ""
                 },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
                 "mono": {
                     "bypassed": true,
                     "parameters": {},
@@ -423,13 +337,13 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Deluxe Reverb.nam",
+                            "/var/modep/user-files/NAM Models/Victory The Deputy DI/Victory - The Deputy Voice 1 G 11 TMB 12 Master 10.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": -5.0,
-                        "output_level": -5.0,
+                        "input_level": 0.0,
+                        "output_level": 0.0,
                         "quality_scale": 1.0
                     },
                     "preset": ""
@@ -438,12 +352,12 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Tone King Imperial Rhythm Drive, Volume 8, Treble 5,  Bass 4, 1x12 Fender.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": 7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
@@ -453,16 +367,16 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Bogren BDHIII no pedal.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": -7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
-                    "preset": ""
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_2-Vic_Drive.lv2/Vic_Drive.ttl"
                 },
                 "pocketverbs": {
                     "bypassed": false,
@@ -474,6 +388,49 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                }
+            }
+        },
+        {
+            "name": "Distortion",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "Drop": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Step": -1.0,
+                        "Gain": 0.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": ""
                 },
                 "SwitchBox_1_4_lv2": {
                     "bypassed": false,
@@ -490,34 +447,6 @@
                         "active_channel": 2.0
                     },
                     "preset": ""
-                }
-            }
-        },
-        {
-            "name": "Drop 0.5",
-            "data": {
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BRIGHT": 0.1992190033197403,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.19029000401496887,
-                        "LEVEL": -10.0
-                    },
-                    "preset": ""
-                },
-                "Drop": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Step": -1.0,
-                        "Gain": 0.0,
-                        "Fidelity": 2.0
-                    },
-                    "preset": ""
                 },
                 "_chorus_stereo": {
                     "bypassed": false,
@@ -573,6 +502,22 @@
                     },
                     "preset": ""
                 },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
                 "mono": {
                     "bypassed": true,
                     "parameters": {},
@@ -587,13 +532,13 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Deluxe Reverb.nam",
+                            "/var/modep/user-files/NAM Models/Victory The Deputy DI/Victory - The Deputy Voice 1 G 11 TMB 12 Master 10.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": -5.0,
-                        "output_level": -5.0,
+                        "input_level": 0.0,
+                        "output_level": 0.0,
                         "quality_scale": 1.0
                     },
                     "preset": ""
@@ -602,12 +547,12 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Tone King Imperial Rhythm Drive, Volume 8, Treble 5,  Bass 4, 1x12 Fender.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": 7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
@@ -617,16 +562,16 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Bogren BDHIII no pedal.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": -7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
-                    "preset": ""
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_2-Vic_Drive.lv2/Vic_Drive.ttl"
                 },
                 "pocketverbs": {
                     "bypassed": false,
@@ -638,6 +583,49 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                }
+            }
+        },
+        {
+            "name": "Drop 0.5",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "Drop": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Step": -1.0,
+                        "Gain": 0.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": ""
                 },
                 "SwitchBox_1_4_lv2": {
                     "bypassed": false,
@@ -654,34 +642,6 @@
                         "active_channel": 2.0
                     },
                     "preset": ""
-                }
-            }
-        },
-        {
-            "name": "Clean Chorus",
-            "data": {
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BRIGHT": 0.1992190033197403,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.19029000401496887,
-                        "LEVEL": -10.0
-                    },
-                    "preset": ""
-                },
-                "Drop": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Step": -1.0,
-                        "Gain": 0.0,
-                        "Fidelity": 2.0
-                    },
-                    "preset": ""
                 },
                 "_chorus_stereo": {
                     "bypassed": false,
@@ -737,6 +697,22 @@
                     },
                     "preset": ""
                 },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
                 "mono": {
                     "bypassed": true,
                     "parameters": {},
@@ -751,13 +727,13 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Fender Showman 1964.nam",
+                            "/var/modep/user-files/NAM Models/Victory The Deputy DI/Victory - The Deputy Voice 1 G 11 TMB 12 Master 10.nam",
                             "p"
                         ]
                     },
                     "ports": {
                         "input_level": 0.0,
-                        "output_level": -5.0,
+                        "output_level": 0.0,
                         "quality_scale": 1.0
                     },
                     "preset": ""
@@ -766,12 +742,12 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Tone King Imperial Rhythm Drive, Volume 8, Treble 5,  Bass 4, 1x12 Fender.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": 7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
@@ -781,16 +757,16 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Bogren BDHIII no pedal.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": -7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
-                    "preset": ""
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_2-Vic_Drive.lv2/Vic_Drive.ttl"
                 },
                 "pocketverbs": {
                     "bypassed": false,
@@ -802,6 +778,49 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                }
+            }
+        },
+        {
+            "name": "Clean Chorus",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "Drop": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Step": -1.0,
+                        "Gain": 0.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": ""
                 },
                 "SwitchBox_1_4_lv2": {
                     "bypassed": false,
@@ -818,34 +837,6 @@
                         "active_channel": 3.0
                     },
                     "preset": ""
-                }
-            }
-        },
-        {
-            "name": "Drive Solo",
-            "data": {
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BRIGHT": 0.3,
-                        "GATE": -69.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.19029000401496887,
-                        "LEVEL": -10.0
-                    },
-                    "preset": ""
-                },
-                "Drop": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Step": -1.0,
-                        "Gain": 0.0,
-                        "Fidelity": 2.0
-                    },
-                    "preset": ""
                 },
                 "_chorus_stereo": {
                     "bypassed": false,
@@ -901,327 +892,15 @@
                     },
                     "preset": ""
                 },
-                "mono": {
+                "modmeter_1": {
                     "bypassed": false,
                     "parameters": {},
                     "ports": {
-                        "gain": 3.3705360889434814,
-                        "enable": 1.0,
-                        "mute": 0.0
+                        "reset": 0.0
                     },
                     "preset": ""
                 },
-                "neural_amp_modeler_lv2": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Deluxe Reverb.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": -5.0,
-                        "output_level": -5.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "neural_amp_modeler_lv2_1": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Tone King Imperial Rhythm Drive, Volume 8, Treble 5,  Bass 4, 1x12 Fender.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": 0.0,
-                        "output_level": 0.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "neural_amp_modeler_lv2_2": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Bogren BDHIII no pedal.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": 0.0,
-                        "output_level": 0.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "pocketverbs": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "type": 0.0,
-                        "size": 0.10267899930477142,
-                        "gating": 0.0,
-                        "drywet": 0.07366099953651428
-                    },
-                    "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
-                },
-                "SwitchBox_1_4_lv2": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "active_channel": 2.0
-                    },
-                    "preset": ""
-                },
-                "SwitchBox_1_4_lv2_1": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "active_channel": 2.0
-                    },
-                    "preset": ""
-                }
-            }
-        },
-        {
-            "name": "Distortion Solo",
-            "data": {
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BRIGHT": 0.1992190033197403,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.19029000401496887,
-                        "LEVEL": -10.0
-                    },
-                    "preset": ""
-                },
-                "Drop": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Step": -1.0,
-                        "Gain": 0.0,
-                        "Fidelity": 2.0
-                    },
-                    "preset": ""
-                },
-                "_chorus_stereo": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "level": 0.46316999197006226,
-                        "delay": 0.021316999569535255,
-                        "depth": 0.09319200366735458,
-                        "freq": 1.2435829639434814
-                    },
-                    "preset": "file:///var/modep/lv2-presets/_chorus_stereo-Subtle_Chorus-65862.lv2/Subtle_Chorus.ttl"
-                },
-                "bolliedelayxt": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "CP_ENABLED": 1.0,
-                        "CP_TRAILS": 0.0,
-                        "CP_TEMPO_MODE": 0.0,
-                        "CP_PING_PONG": 0.0,
-                        "CP_TEMPO_HOST": 120.0,
-                        "CP_TEMPO_USER": 120.0,
-                        "CP_TEMPO_DIV_CH1": 3.0,
-                        "CP_TEMPO_DIV_CH2": 3.0,
-                        "CP_FB": 3.09375,
-                        "CP_CF": 0.0,
-                        "CP_GAIN_DRY": 0.0,
-                        "CP_GAIN_WET": -23.70479965209961,
-                        "CP_MOD_ON": 0.0,
-                        "CP_MOD_PHASE": 0.0,
-                        "CP_MOD_DEPTH": 2.0,
-                        "CP_MOD_RATE": 0.10000000149011612,
-                        "CP_HCF_PRE_ON": 0.0,
-                        "CP_HCF_PRE_FREQ": 7500.0,
-                        "CP_HCF_PRE_Q": 0.7070000171661377,
-                        "CP_LCF_PRE_ON": 0.0,
-                        "CP_LCF_PRE_FREQ": 20.0,
-                        "CP_LCF_PRE_Q": 0.7070000171661377,
-                        "CP_HCF_FB_ON": 0.0,
-                        "CP_HCF_FB_FREQ": 7500.0,
-                        "CP_HCF_FB_Q": 0.7070000171661377,
-                        "CP_LCF_FB_ON": 0.0,
-                        "CP_LCF_FB_FREQ": 20.0,
-                        "CP_LCF_FB_Q": 0.7070000171661377
-                    },
-                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Subtle_Delay.lv2/Subtle_Delay.ttl"
-                },
-                "modmeter": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "reset": 1.0
-                    },
-                    "preset": ""
-                },
-                "mono": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "gain": 3.3705360889434814,
-                        "enable": 1.0,
-                        "mute": 0.0
-                    },
-                    "preset": ""
-                },
-                "neural_amp_modeler_lv2": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Deluxe Reverb.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": -5.0,
-                        "output_level": -5.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "neural_amp_modeler_lv2_1": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Tone King Imperial Rhythm Drive, Volume 8, Treble 5,  Bass 4, 1x12 Fender.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": 0.0,
-                        "output_level": 0.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "neural_amp_modeler_lv2_2": {
-                    "bypassed": false,
-                    "parameters": {
-                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Bogren BDHIII no pedal.nam",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "input_level": 0.0,
-                        "output_level": 0.0,
-                        "quality_scale": 1.0
-                    },
-                    "preset": ""
-                },
-                "pocketverbs": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "type": 0.0,
-                        "size": 0.10267899930477142,
-                        "gating": 0.0,
-                        "drywet": 0.07366099953651428
-                    },
-                    "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
-                },
-                "SwitchBox_1_4_lv2": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "active_channel": 3.0
-                    },
-                    "preset": ""
-                },
-                "SwitchBox_1_4_lv2_1": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "active_channel": 2.0
-                    },
-                    "preset": ""
-                }
-            }
-        },
-        {
-            "name": "Drive Chorus",
-            "data": {
-                "CollisionDrive": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "BYPASS": 1.0,
-                        "BRIGHT": 0.1992190033197403,
-                        "GATE": -55.0,
-                        "ATTACK": 0.0,
-                        "DRIVE": 0.19029000401496887,
-                        "LEVEL": -10.0
-                    },
-                    "preset": ""
-                },
-                "Drop": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "Step": -1.0,
-                        "Gain": 0.0,
-                        "Fidelity": 2.0
-                    },
-                    "preset": ""
-                },
-                "_chorus_stereo": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "level": 0.46316999197006226,
-                        "delay": 0.021316999569535255,
-                        "depth": 0.09319200366735458,
-                        "freq": 1.2435829639434814
-                    },
-                    "preset": "file:///var/modep/lv2-presets/_chorus_stereo-Subtle_Chorus-65862.lv2/Subtle_Chorus.ttl"
-                },
-                "bolliedelayxt": {
-                    "bypassed": false,
-                    "parameters": {},
-                    "ports": {
-                        "CP_ENABLED": 1.0,
-                        "CP_TRAILS": 0.0,
-                        "CP_TEMPO_MODE": 0.0,
-                        "CP_PING_PONG": 0.0,
-                        "CP_TEMPO_HOST": 120.0,
-                        "CP_TEMPO_USER": 120.0,
-                        "CP_TEMPO_DIV_CH1": 3.0,
-                        "CP_TEMPO_DIV_CH2": 3.0,
-                        "CP_FB": 3.09375,
-                        "CP_CF": 0.0,
-                        "CP_GAIN_DRY": 0.0,
-                        "CP_GAIN_WET": -23.70479965209961,
-                        "CP_MOD_ON": 0.0,
-                        "CP_MOD_PHASE": 0.0,
-                        "CP_MOD_DEPTH": 2.0,
-                        "CP_MOD_RATE": 0.10000000149011612,
-                        "CP_HCF_PRE_ON": 0.0,
-                        "CP_HCF_PRE_FREQ": 7500.0,
-                        "CP_HCF_PRE_Q": 0.7070000171661377,
-                        "CP_LCF_PRE_ON": 0.0,
-                        "CP_LCF_PRE_FREQ": 20.0,
-                        "CP_LCF_PRE_Q": 0.7070000171661377,
-                        "CP_HCF_FB_ON": 0.0,
-                        "CP_HCF_FB_FREQ": 7500.0,
-                        "CP_HCF_FB_Q": 0.7070000171661377,
-                        "CP_LCF_FB_ON": 0.0,
-                        "CP_LCF_FB_FREQ": 20.0,
-                        "CP_LCF_FB_Q": 0.7070000171661377
-                    },
-                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Subtle_Delay.lv2/Subtle_Delay.ttl"
-                },
-                "modmeter": {
+                "modmeter_2": {
                     "bypassed": false,
                     "parameters": {},
                     "ports": {
@@ -1243,13 +922,13 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Deluxe Reverb.nam",
+                            "/var/modep/user-files/NAM Models/Victory The Deputy DI/Victory - The Deputy Voice 1 G 11 TMB 12 Master 10.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": -5.0,
-                        "output_level": -5.0,
+                        "input_level": 0.0,
+                        "output_level": 0.0,
                         "quality_scale": 1.0
                     },
                     "preset": ""
@@ -1258,12 +937,12 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Tone King Imperial Rhythm Drive, Volume 8, Treble 5,  Bass 4, 1x12 Fender.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": 7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
@@ -1273,16 +952,16 @@
                     "bypassed": false,
                     "parameters": {
                         "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
-                            "/var/modep/user-files/NAM Models/Bogren BDHIII no pedal.nam",
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
                             "p"
                         ]
                     },
                     "ports": {
-                        "input_level": 0.0,
+                        "input_level": -7.5,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
-                    "preset": ""
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_2-Vic_Drive.lv2/Vic_Drive.ttl"
                 },
                 "pocketverbs": {
                     "bypassed": false,
@@ -1294,6 +973,439 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                }
+            }
+        },
+        {
+            "name": "Drive Solo",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "Drop": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Step": -1.0,
+                        "Gain": 0.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": ""
+                },
+                "SwitchBox_1_4_lv2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "active_channel": 2.0
+                    },
+                    "preset": ""
+                },
+                "SwitchBox_1_4_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "active_channel": 2.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": "file:///var/modep/lv2-presets/_chorus_stereo-Subtle_Chorus-65862.lv2/Subtle_Chorus.ttl"
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Subtle_Delay.lv2/Subtle_Delay.ttl"
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 3.3705360889434814,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory The Deputy DI/Victory - The Deputy Voice 1 G 11 TMB 12 Master 10.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 7.5,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -7.5,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_2-Vic_Drive.lv2/Vic_Drive.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                }
+            }
+        },
+        {
+            "name": "Dist Solo",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "Drop": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Step": -1.0,
+                        "Gain": 0.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": ""
+                },
+                "SwitchBox_1_4_lv2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "active_channel": 3.0
+                    },
+                    "preset": ""
+                },
+                "SwitchBox_1_4_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "active_channel": 2.0
+                    },
+                    "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": "file:///var/modep/lv2-presets/_chorus_stereo-Subtle_Chorus-65862.lv2/Subtle_Chorus.ttl"
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Subtle_Delay.lv2/Subtle_Delay.ttl"
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 3.3705360889434814,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory The Deputy DI/Victory - The Deputy Voice 1 G 11 TMB 12 Master 10.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 7.5,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -7.5,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_2-Vic_Drive.lv2/Vic_Drive.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                }
+            }
+        },
+        {
+            "name": "Drive Chorus",
+            "data": {
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "CabinetLoader_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Eminence Karnivore 8 Ohm, Engl E412 Pro 4 x 12 (96Khz)/Engl_M160_Cone.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "Drop": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Step": -1.0,
+                        "Gain": 0.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": ""
                 },
                 "SwitchBox_1_4_lv2": {
                     "bypassed": false,
@@ -1310,6 +1422,142 @@
                         "active_channel": 3.0
                     },
                     "preset": ""
+                },
+                "_chorus_stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 0.46316999197006226,
+                        "delay": 0.021316999569535255,
+                        "depth": 0.09319200366735458,
+                        "freq": 1.2435829639434814
+                    },
+                    "preset": "file:///var/modep/lv2-presets/_chorus_stereo-Subtle_Chorus-65862.lv2/Subtle_Chorus.ttl"
+                },
+                "bolliedelayxt": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "CP_ENABLED": 1.0,
+                        "CP_TRAILS": 0.0,
+                        "CP_TEMPO_MODE": 0.0,
+                        "CP_PING_PONG": 0.0,
+                        "CP_TEMPO_HOST": 120.0,
+                        "CP_TEMPO_USER": 120.0,
+                        "CP_TEMPO_DIV_CH1": 3.0,
+                        "CP_TEMPO_DIV_CH2": 3.0,
+                        "CP_FB": 3.09375,
+                        "CP_CF": 0.0,
+                        "CP_GAIN_DRY": 0.0,
+                        "CP_GAIN_WET": -23.70479965209961,
+                        "CP_MOD_ON": 0.0,
+                        "CP_MOD_PHASE": 0.0,
+                        "CP_MOD_DEPTH": 2.0,
+                        "CP_MOD_RATE": 0.10000000149011612,
+                        "CP_HCF_PRE_ON": 0.0,
+                        "CP_HCF_PRE_FREQ": 7500.0,
+                        "CP_HCF_PRE_Q": 0.7070000171661377,
+                        "CP_LCF_PRE_ON": 0.0,
+                        "CP_LCF_PRE_FREQ": 20.0,
+                        "CP_LCF_PRE_Q": 0.7070000171661377,
+                        "CP_HCF_FB_ON": 0.0,
+                        "CP_HCF_FB_FREQ": 7500.0,
+                        "CP_HCF_FB_Q": 0.7070000171661377,
+                        "CP_LCF_FB_ON": 0.0,
+                        "CP_LCF_FB_FREQ": 20.0,
+                        "CP_LCF_FB_Q": 0.7070000171661377
+                    },
+                    "preset": "file:///var/modep/lv2-presets/bolliedelayxt-Subtle_Delay.lv2/Subtle_Delay.ttl"
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 0.0
+                    },
+                    "preset": ""
+                },
+                "modmeter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 3.3705360889434814,
+                        "enable": 0.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory The Deputy DI/Victory - The Deputy Voice 1 G 11 TMB 12 Master 10.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 7.5,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/var/modep/user-files/NAM Models/Victory MKX/Victory MKX Gain 2.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -7.5,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "file:///var/modep/lv2-presets/neural_amp_modeler_lv2_2-Vic_Drive.lv2/Vic_Drive.ttl"
+                },
+                "pocketverbs": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "type": 0.0,
+                        "size": 0.10267899930477142,
+                        "gating": 0.0,
+                        "drywet": 0.07366099953651428
+                    },
+                    "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
                 }
             }
         }

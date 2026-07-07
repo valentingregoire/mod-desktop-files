@@ -10,6 +10,6 @@
 	a pset:Preset ;
 	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
 	state:state [
-		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Bogren%20BDHIII%20no%20pedal.nam>
+		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Victory%20MKX%20Gain%202.nam>
 	] .
 

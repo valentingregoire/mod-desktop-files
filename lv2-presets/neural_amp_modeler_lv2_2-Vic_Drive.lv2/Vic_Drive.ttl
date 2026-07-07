@@ -9,7 +9,18 @@
 <>
 	a pset:Preset ;
 	lv2:appliesTo <http://github.com/mikeoliphant/neural-amp-modeler-lv2> ;
+	rdfs:label "Vic Drive" ;
+	lv2:port [
+		lv2:symbol "input_level" ;
+		pset:value -7.5
+	] , [
+		lv2:symbol "output_level" ;
+		pset:value 3.0
+	] , [
+		lv2:symbol "quality_scale" ;
+		pset:value 1.0
+	] ;
 	state:state [
-		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Victory%20-%20The%20Deputy%20Voice%201%20G%2011%20TMB%2012%20Master%2010.nam>
+		<http://github.com/mikeoliphant/neural-amp-modeler-lv2#model> <Victory%20MKX%20Gain%202.nam>
 	] .
 
