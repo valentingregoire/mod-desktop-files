@@ -1,5 +1,5 @@
 {
-    "current": 1,
+    "current": 2,
     "snapshots": [
         {
             "name": "Clean",
@@ -193,6 +193,35 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "switch": 1.0,
+                        "threshold": -70.0,
+                        "attack": 30.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "gaterange": -90.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -388,6 +417,35 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "switch": 1.0,
+                        "threshold": -70.0,
+                        "attack": 30.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "gaterange": -90.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -583,6 +641,35 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "switch": 1.0,
+                        "threshold": -70.0,
+                        "attack": 30.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "gaterange": -90.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -778,6 +865,35 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "switch": 1.0,
+                        "threshold": -70.0,
+                        "attack": 30.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "gaterange": -90.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -973,6 +1089,35 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "switch": 1.0,
+                        "threshold": -70.0,
+                        "attack": 30.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "gaterange": -90.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -1168,26 +1313,41 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "switch": 1.0,
+                        "threshold": -70.0,
+                        "attack": 30.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "gaterange": -90.0
+                    },
+                    "preset": ""
                 }
             }
         },
         {
             "name": "Dist Solo",
             "data": {
-                "CabinetLoader": {
-                    "bypassed": false,
-                    "parameters": {
-                        "https://mod.audio/plugins/CabinetLoader#irfile": [
-                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
-                            "p"
-                        ]
-                    },
-                    "ports": {
-                        "level": -15.0,
-                        "lv2_enabled": 1.0
-                    },
-                    "preset": ""
-                },
                 "CabinetLoader_1": {
                     "bypassed": false,
                     "parameters": {
@@ -1332,7 +1492,7 @@
                         ]
                     },
                     "ports": {
-                        "input_level": 7.5,
+                        "input_level": 15.0,
                         "output_level": 0.0,
                         "quality_scale": 1.0
                     },
@@ -1363,6 +1523,49 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                },
+                "CabinetLoader": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/var/modep/user-files/Speaker Cabinets IRs/Celestion G12-65 Heritage UK made/g12-65 cc8.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -15.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "switch": 1.0,
+                        "threshold": -70.0,
+                        "attack": 30.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "gaterange": -90.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -1558,6 +1761,35 @@
                         "drywet": 0.07366099953651428
                     },
                     "preset": "file:///var/modep/lv2-presets/pocketverbs-Subtle_Reverb-20424.lv2/Subtle_Reverb.ttl"
+                },
+                "mod": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "mode": 0.0,
+                        "tuning": 440.0,
+                        "thresholdRMS": -75.0,
+                        "thresholdPostFilter": -45.0,
+                        "thresholdFFT": -40.0,
+                        "thresholdOverride": 20.0,
+                        "thresholdFundamental": 5.0,
+                        "thresholdOctave": -30.0,
+                        "thresholdOvertones": -15.0
+                    },
+                    "preset": ""
+                },
+                "gate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "switch": 1.0,
+                        "threshold": -70.0,
+                        "attack": 30.0,
+                        "hold": 500.0,
+                        "decay": 1000.0,
+                        "gaterange": -90.0
+                    },
+                    "preset": ""
                 }
             }
         }
