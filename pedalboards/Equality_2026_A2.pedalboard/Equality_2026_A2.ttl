@@ -8,108 +8,150 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 _:b1
-    ingen:tail <bolliedelayxt/OP_OUTPUT_CH1> ;
-    ingen:head <pocketverbs/inL> .
-
-_:b2
-    ingen:tail <SwitchBox_1_4_lv2_1/Out1> ;
-    ingen:head <playback_1> .
-
-_:b3
-    ingen:tail <SwitchBox_1_4_lv2_1/Out2> ;
-    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
-
-_:b4
-    ingen:tail <_chorus_stereo/out> ;
-    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
-
-_:b5
-    ingen:tail <SwitchBox_1_4_lv2/Out2> ;
-    ingen:head <neural_amp_modeler_lv2_2/input> .
-
-_:b6
-    ingen:tail <Drop/Out> ;
-    ingen:head <neural_amp_modeler_lv2_1/input> .
-
-_:b7
-    ingen:tail <SwitchBox_1_4_lv2/Out3> ;
-    ingen:head <neural_amp_modeler_lv2_1/input> .
-
-_:b8
-    ingen:tail <pocketverbs/outR> ;
-    ingen:head <playback_1> .
-
-_:b9
-    ingen:tail <capture_1> ;
-    ingen:head <mod/in> .
-
-_:b10
-    ingen:tail <mono/out> ;
-    ingen:head <SwitchBox_1_4_lv2_1/In> .
-
-_:b11
-    ingen:tail <capture_1> ;
-    ingen:head <modmeter_1/in> .
-
-_:b12
     ingen:tail <SwitchBox_1_4_lv2/Out4> ;
     ingen:head <Drop/In> .
 
-_:b13
+_:b2
+    ingen:tail <pocketverbs/outR> ;
+    ingen:head <playback_1> .
+
+_:b3
+    ingen:tail <capture_1> ;
+    ingen:head <modmeter_1/in> .
+
+_:b4
+    ingen:tail <bolliedelayxt/OP_OUTPUT_CH1> ;
+    ingen:head <pocketverbs/inL> .
+
+_:b5
     ingen:tail <SwitchBox_1_4_lv2/Out1> ;
     ingen:head <neural_amp_modeler_lv2/input> .
 
-_:b14
+_:b6
     ingen:tail <mono/out> ;
-    ingen:head <modmeter/in> .
+    ingen:head <SwitchBox_1_4_lv2_1/In> .
 
-_:b15
-    ingen:tail <bolliedelayxt/OP_OUTPUT_CH2> ;
-    ingen:head <pocketverbs/inR> .
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <mod/in> .
 
-_:b16
-    ingen:tail <neural_amp_modeler_lv2/output> ;
-    ingen:head <CabinetLoader/lv2_audio_in> .
+_:b8
+    ingen:tail <SwitchBox_1_4_lv2/Out3> ;
+    ingen:head <neural_amp_modeler_lv2_1/input> .
 
-_:b17
-    ingen:tail <neural_amp_modeler_lv2_1/output> ;
-    ingen:head <CabinetLoader_1/lv2_audio_in> .
+_:b9
+    ingen:tail <Drop/Out> ;
+    ingen:head <neural_amp_modeler_lv2_1/input> .
 
-_:b18
-    ingen:tail <CabinetLoader_1/lv2_audio_out> ;
-    ingen:head <mono/in> .
-
-_:b19
-    ingen:tail <neural_amp_modeler_lv2_2/output> ;
-    ingen:head <CabinetLoader_1/lv2_audio_in> .
-
-_:b20
-    ingen:tail <CabinetLoader/lv2_audio_out> ;
-    ingen:head <mono/in> .
-
-_:b21
-    ingen:tail <_chorus_stereo/out1> ;
-    ingen:head <bolliedelayxt/IP_INPUT_CH2> .
-
-_:b22
-    ingen:tail <neural_amp_modeler_lv2_1/output> ;
-    ingen:head <modmeter_2/in> .
-
-_:b23
-    ingen:tail <SwitchBox_1_4_lv2_1/Out3> ;
-    ingen:head <_chorus_stereo/in> .
-
-_:b24
+_:b10
     ingen:tail <pocketverbs/outL> ;
     ingen:head <playback_1> .
 
-_:b25
+_:b11
+    ingen:tail <SwitchBox_1_4_lv2_1/Out3> ;
+    ingen:head <_chorus_stereo/in> .
+
+_:b12
+    ingen:tail <_chorus_stereo/out> ;
+    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
+
+_:b13
     ingen:tail <capture_1> ;
     ingen:head <gate/input> .
 
-_:b26
+_:b14
+    ingen:tail <SwitchBox_1_4_lv2_1/Out2> ;
+    ingen:head <bolliedelayxt/IP_INPUT_CH1> .
+
+_:b15
     ingen:tail <gate/output> ;
     ingen:head <SwitchBox_1_4_lv2/In> .
+
+_:b16
+    ingen:tail <bolliedelayxt/OP_OUTPUT_CH2> ;
+    ingen:head <pocketverbs/inR> .
+
+_:b17
+    ingen:tail <SwitchBox_1_4_lv2/Out2> ;
+    ingen:head <neural_amp_modeler_lv2_2/input> .
+
+_:b18
+    ingen:tail <neural_amp_modeler_lv2/output> ;
+    ingen:head <CabinetLoader/lv2_audio_in> .
+
+_:b19
+    ingen:tail <neural_amp_modeler_lv2_1/output> ;
+    ingen:head <modmeter_2/in> .
+
+_:b20
+    ingen:tail <_chorus_stereo/out1> ;
+    ingen:head <bolliedelayxt/IP_INPUT_CH2> .
+
+_:b21
+    ingen:tail <neural_amp_modeler_lv2_1/output> ;
+    ingen:head <CabinetLoader_1/lv2_audio_in> .
+
+_:b22
+    ingen:tail <CabinetLoader/lv2_audio_out> ;
+    ingen:head <mono/in> .
+
+_:b23
+    ingen:tail <CabinetLoader_1/lv2_audio_out> ;
+    ingen:head <mono/in> .
+
+_:b24
+    ingen:tail <SwitchBox_1_4_lv2_1/Out1> ;
+    ingen:head <playback_1> .
+
+_:b25
+    ingen:tail <neural_amp_modeler_lv2_2/output> ;
+    ingen:head <CabinetLoader_1/lv2_audio_in> .
+
+_:b26
+    ingen:tail <mono/out> ;
+    ingen:head <modmeter/in> .
+
+<CabinetLoader>
+    ingen:canvasX 2229.2 ;
+    ingen:canvasY 121.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <CabinetLoader/lv2_audio_in> ,
+             <CabinetLoader/lv2_audio_out> ,
+             <CabinetLoader/level> ,
+             <CabinetLoader/lv2_enabled> ,
+             <CabinetLoader/:bypass> ;
+    lv2:prototype <https://mod.audio/plugins/CabinetLoader> ;
+    pedal:instanceNumber 38 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CabinetLoader/lv2_audio_in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CabinetLoader/lv2_audio_in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CabinetLoader/level>
+    ingen:value -15.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetLoader/lv2_enabled>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CabinetLoader/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
 
 <CabinetLoader_1>
     ingen:canvasX 2195.2 ;
@@ -231,7 +273,7 @@ _:b26
         lv2:OutputPort .
 
 <SwitchBox_1_4_lv2/active_channel>
-    ingen:value 3.000000 ;
+    ingen:value 1.000000 ;
     a lv2:ControlPort ,
         lv2:InputPort .
 
@@ -552,6 +594,72 @@ _:b26
         lv2:OutputPort .
 
 <bolliedelayxt/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate>
+    ingen:canvasX 254.0 ;
+    ingen:canvasY 545.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <gate/input> ,
+             <gate/output> ,
+             <gate/switch> ,
+             <gate/threshold> ,
+             <gate/attack> ,
+             <gate/hold> ,
+             <gate/decay> ,
+             <gate/gaterange> ,
+             <gate/:bypass> ;
+    lv2:prototype <http://hippie.lt/lv2/gate> ;
+    pedal:instanceNumber 43 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<gate/input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<gate/input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<gate/switch>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/threshold>
+    ingen:value -70.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/attack>
+    ingen:value 30.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/hold>
+    ingen:value 500.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/decay>
+    ingen:value 1000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/gaterange>
+    ingen:value -90.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<gate/:bypass>
     ingen:value 0 ;
     a lv2:ControlPort ,
         lv2:InputPort .
@@ -1086,114 +1194,6 @@ _:b26
     a lv2:ControlPort ,
         lv2:InputPort .
 
-<CabinetLoader>
-    ingen:canvasX 2229.2 ;
-    ingen:canvasY 121.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <CabinetLoader/lv2_audio_in> ,
-             <CabinetLoader/lv2_audio_out> ,
-             <CabinetLoader/level> ,
-             <CabinetLoader/lv2_enabled> ,
-             <CabinetLoader/:bypass> ;
-    lv2:prototype <https://mod.audio/plugins/CabinetLoader> ;
-    pedal:instanceNumber 38 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<CabinetLoader/lv2_audio_in>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<CabinetLoader/lv2_audio_in>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<CabinetLoader/level>
-    ingen:value -15.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CabinetLoader/lv2_enabled>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<CabinetLoader/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate>
-    ingen:canvasX 254.0 ;
-    ingen:canvasY 545.0 ;
-    ingen:enabled true ;
-    ingen:polyphonic false ;
-    lv2:microVersion 0 ;
-    lv2:minorVersion 2 ;
-    mod:builderVersion 0 ;
-    mod:releaseNumber 0 ;
-    lv2:port <gate/input> ,
-             <gate/output> ,
-             <gate/switch> ,
-             <gate/threshold> ,
-             <gate/attack> ,
-             <gate/hold> ,
-             <gate/decay> ,
-             <gate/gaterange> ,
-             <gate/:bypass> ;
-    lv2:prototype <http://hippie.lt/lv2/gate> ;
-    pedal:instanceNumber 43 ;
-    pedal:preset <> ;
-    a ingen:Block .
-
-<gate/input>
-    a lv2:AudioPort ,
-        lv2:InputPort .
-
-<gate/input>
-    a lv2:AudioPort ,
-        lv2:OutputPort .
-
-<gate/switch>
-    ingen:value 1.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/threshold>
-    ingen:value -70.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/attack>
-    ingen:value 30.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/hold>
-    ingen:value 500.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/decay>
-    ingen:value 1000.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/gaterange>
-    ingen:value -90.000000 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
-<gate/:bypass>
-    ingen:value 0 ;
-    a lv2:ControlPort ,
-        lv2:InputPort .
-
 <:bpb>
     ingen:value 4.000000 ;
     lv2:index 0 ;
@@ -1285,7 +1285,7 @@ _:b26
     pedal:addressings <addressings.json> ;
     pedal:screenshot <screenshot.png> ;
     pedal:thumbnail <thumbnail.png> ;
-    pedal:version 102 ;
+    pedal:version 103 ;
     ingen:polyphony 1 ;
     ingen:arc _:b1 ,
               _:b2 ,
@@ -1313,12 +1313,14 @@ _:b26
               _:b24 ,
               _:b25 ,
               _:b26 ;
-    ingen:block <CabinetLoader_1> ,
+    ingen:block <CabinetLoader> ,
+                <CabinetLoader_1> ,
                 <Drop> ,
                 <SwitchBox_1_4_lv2> ,
                 <SwitchBox_1_4_lv2_1> ,
                 <_chorus_stereo> ,
                 <bolliedelayxt> ,
+                <gate> ,
                 <mod> ,
                 <modmeter> ,
                 <modmeter_1> ,
@@ -1327,9 +1329,7 @@ _:b26
                 <neural_amp_modeler_lv2> ,
                 <neural_amp_modeler_lv2_1> ,
                 <neural_amp_modeler_lv2_2> ,
-                <pocketverbs> ,
-                <CabinetLoader> ,
-                <gate> ;
+                <pocketverbs> ;
     lv2:port <:bpb> ,
              <:bpm> ,
              <:rolling> ,
